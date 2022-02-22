@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Levi's® for Men - Shop Clothing, Accessories & Footwear | Levi's® India</title>
+    <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./STYLES/header.css">
+    <link rel="stylesheet" href="./STYLES/menProducts.css">
+    <link rel="stylesheet" href="./STYLES/footermain.css">
+    <link rel="icon" type="image/x-icon" href="./IMAGES/logo.jpg">
+
+</head>
+
+<body>
+    
+    <header class="complete-header"></header>
+    <div id="tpcc">
+        <div>
+            <h2>REFINE</h2>
+        </div>
+        <div id="pro_sort">
+            <div>
+                <h2>
+                    Total Style : <span id="totalProductsIn"></span>
+                </h2>
+            </div>
+            <div id="selectCon">
+                <select id="sortSelect">
+                    <option value="low">Price : low to high</option>
+                    <option value="high">Price : High to low</option>
+                    <option value="a">Sort : A to Z</option>
+                    <option value="z">Sort : Z to A</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="productPage">
+        <div id="leftDiv">
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>GENDER</span>
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv0">
+                    <input type="checkbox">
+                    <label for="">Men</label> <br>
+                    <input type="checkbox">
+                    <label for="">Women</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>ITEM TYPE</span>
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv1">
+                    <input type="checkbox">
+                    <label for="">Cap</label> <br>
+                    <input type="checkbox">
+                    <label for="">Jackets</label> <br>
+                    <input type="checkbox">
+                    <label for="">Jeans</label> <br>
+                    <input type="checkbox">
+                    <label for="">Joggers</label> <br>
+                    <input type="checkbox">
+                    <label for="">Pants</label> <br>
+                    <input type="checkbox">
+                    <label for="">Shirts</label> <br>
+                    <input type="checkbox">
+                    <label for="">T.shirts</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>PRICE</span>
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv2">
+                    <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
+                    <label for="">₹0 - ₹1000</label><br>
+                    <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
+                    <label for="">₹1001 - ₹3000</label><br>
+                    <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
+                    <label for="">₹3001 - ₹5000</label><br>
+                    <input type="radio" name="priceRadioInput" value="" class="priceRadioInputClass">
+                    <label for="">₹5001 - ₹10000</label>
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>SIZE</span>
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv3">
+                    <input type="checkbox">
+                    <label for="">XS</label> <br>
+                    <input type="checkbox">
+                    <label for="">S</label> <br>
+                    <input type="checkbox">
+                    <label for="">M</label> <br>
+                    <input type="checkbox">
+                    <label for="">L</label> <br>
+                    <input type="checkbox">
+                    <label for="">XL</label> <br>
+                    <input type="checkbox">
+                    <label for="">XXL</label>   
+                </div>
+            </div>
+            <hr>
+            <div class="">
+                <div class="open-close">
+                    <span>COLOUR</span>
+                    <span class="openAndClose"><i class="fas fa-plus-circle"></i></span> 
+                </div>
+                <div class="openAndCloseDiv" id="openAndCloseDiv4"> 
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="rightDiv">
+            <div id="menProductDiv"></div>
+        </div>
+
+    </div>
+    <footer></footer>
+    <!-- <div>
+        <span><i class="fas fa-minus-circle"></i></span>
+    </div> -->
+</body>
+</html>
+<script src="./SCRIPTS/menProducts.js"></script>
+
+<script type="module">
+    import navbar from "./COMPONENTS/header.js"
+    import footermain from "./COMPONENTS/footermain.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML=footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+</script>
