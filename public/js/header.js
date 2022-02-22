@@ -3,18 +3,18 @@ const navbar = ()=>{
     <div id="black_header">
     <div id="Black_footer_main">
         <ul>
-            <li><a href="./help">HELP</a></li>
+            <li><a href="/help">HELP</a></li>
             <li><a href="">TRACK ORDER</a></li>
             <li><a href="/storelocator">STORE LOCATOR</a></li>
-            <li><a href="/home">SIGN IN</a></li>
+            <li><a href="/account">SIGN IN</a></li>
             <li><img src="https://media.istockphoto.com/vectors/flag-of-india-vector-id472317739?b=1&k=20&m=472317739&s=170667a&w=0&h=Ju9wPp7N7fM00TiZtVuVr_wc6elG1L-b32DMlY7JHc4=" alt=""></li>
         </ul>
     </div>
 </div>
 <div class="navigation-bar">
     <div class="logo-image">
-        <a href="./index.html">
-            <img src="./IMAGES/logo.jpg"
+        <a href="/home">
+            <img src="/img/logo.jpg"
             alt="">
         </a>
     </div>

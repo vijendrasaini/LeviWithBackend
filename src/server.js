@@ -18,7 +18,7 @@ app.use(express.static('public'))
 app.set('view engine','ejs')   
 
 app.use('/home', homeController)
-app.use('/login', registerAndLoginController)
+app.use('/account', registerAndLoginController)
 app.use('/payment', paymentController)
 app.use('/thanks',thanksController)
 app.use('/storelocator', storelocatorController)
