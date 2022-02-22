@@ -1,7 +1,9 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const mongodbConnect = require('./configs/db');
+const app = express();
+app.use(express.json());
 
-const mongodbConnect = require('./configs/db')
+
 
 module.exports = ()=>{
     app.listen( 6666, async () => {
