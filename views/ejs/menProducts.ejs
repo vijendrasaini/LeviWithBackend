@@ -4,10 +4,11 @@
 <head>
     <title>Levi's® for Men - Shop Clothing, Accessories & Footwear | Levi's® India</title>
     <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./STYLES/header.css">
-    <link rel="stylesheet" href="./STYLES/menProducts.css">
-    <link rel="stylesheet" href="./STYLES/footermain.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/menProducts.css">
+    <link rel="stylesheet" href="/css/footermain.css">
     <link rel="icon" type="image/x-icon" href="./IMAGES/logo.jpg">
+
 </head>
 
 <body>
@@ -126,13 +127,16 @@
 
     </div>
     <footer></footer>
+    <!-- <div>
+        <span><i class="fas fa-minus-circle"></i></span>
+    </div> -->
 </body>
 </html>
-<script src="./SCRIPTS/women.js"></script>
+<script src="/js/menProducts.js"></script>
 
 <script type="module">
-    import navbar from "./COMPONENTS/header.js"
-    import footermain from "./COMPONENTS/footermain.js"
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
 
     document.getElementsByTagName("footer")[0].innerHTML=footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()

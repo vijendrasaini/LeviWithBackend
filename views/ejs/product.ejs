@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LEVI'S® shopping</title>
-  <link rel="stylesheet" href="./STYLES/product.css" />
-  <link rel="stylesheet" href="./STYLES/header.css">
-  <link rel="stylesheet" href="./STYLES/footermain.css">
+  <link rel="stylesheet" href="/css/product.css" />
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footermain.css">
   <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/x-icon" href="./IMAGES/logo.jpg">
 </head>
@@ -54,50 +54,11 @@
 
 </html>
 
-<script src="./SCRIPTS/product.js"></script>
+<script src="/js/product.js"></script>
 <script type="module">
-  import navbar from "./COMPONENTS/header.js"
-  import footermain from "./COMPONENTS/footermain.js"
+  import navbar from "/js/header.js"
+  import footermain from "/js/footermain.js"
 
   document.getElementsByTagName("footer")[0].innerHTML = footermain()
   document.getElementsByTagName('header')[0].innerHTML = navbar()
-
-  // const cartIcon = document.getElementById('cartIcon')
-  // console.log(cartIcon)
-  // cartIcon.style.cursor = "pointer"
-  // cartIcon.onclick = goToCart
-  g
-
-
-// async function goToCart(){
-//       try {
-//           const url = "http://127.0.0.1:7000/api/allusers/2";
-//           const response = await fetch(url);
-//           const result = await response.json();
-          
-//           const cart = JSON.parse(localStorage.getItem('cart'))
-//           let currentUser = result.currentuser;
-//         currentUser.cart.push(cart);
-//         console.log(currentUser);
-//         const r = {
-//           id: 2,
-//           currentuser: currentUser,
-//         };
-//         console.log("here");
-//         const arg = {
-//           method: "PUT",
-//           body: JSON.stringify(r),
-//           headers: {
-//             "Content-Type": "application/json",
-//           },
-//         };
-//         const res = await fetch(url, arg);
-//         const re = await res.json();
-//         console.log(re);
-//         window.location.href = "./cart.html"
-//       } catch (error) {
-//         console.log(error);
-//       }
-//     }
-
 </script>
