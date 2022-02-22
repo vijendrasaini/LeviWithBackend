@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footermain.css">
     <link rel="stylesheet" href="/css/payment.css">
-    <link rel="icon" type="image/x-icon" href="./IMAGES/logo.jpg">
+    <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
     <title>Payment</title>
 </head>
 
@@ -144,6 +144,6 @@
         let cart = JSON.parse(localStorage.getItem('cart'))||[]
         cart = []
         localStorage.setItem('cart',JSON.stringify(cart))
-        window.location.href = "thanks.html"
+        window.location.href = "/thanks"
     }
 </script>

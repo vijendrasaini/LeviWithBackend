@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     
     <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./STYLES/header.css">
-    <link rel="stylesheet" href="./STYLES/footermain.css">
-    <link rel="icon" type="image/x-icon" href="./IMAGES/logo.jpg">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footermain.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
 
     <title>Cart</title>
 </head>
@@ -39,17 +39,17 @@
                     </div>
                 </div>
                 <p>Levi's is a Cloth company providing services from 1890's.(click to see details)</p>
-                <a href="payment.html"><button class="checkout_button">PROCEED TO CHECKOUT</button></a>
+                <a href="/payment"><button class="checkout_button">PROCEED TO CHECKOUT</button></a>
             </div>
         </div>
     </div>
     <footer></footer>
 </body>
 </html>
-<script src="./SCRIPTS/cart.js"></script>
+<script src="/js/cart.js"></script>
 <script type="module">
-    import navbar from "./COMPONENTS/header.js"
-    import footermain from "./COMPONENTS/footermain.js"
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
 
     document.getElementsByTagName("footer")[0].innerHTML=footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
