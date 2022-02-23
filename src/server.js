@@ -9,25 +9,33 @@ const paymentController = require('./controllers/payment.controller')
 const thanksController = require('./controllers/thanks.controller')
 const storelocatorController = require('./controllers/storelocator.controller')
 const helpController = require('./controllers/help.controller')
+const googleoauthController = require('./controllers/googleoauth.controller')
+const { register, login } = require('./controllers/authentication.controller')
 
-const app = express();
-app.use(express.json());
+
+const app = express()
+app.use(express.json())
 
 app.use(express.urlencoded({ extended : true}))
 app.use(express.static('public'))
 app.set('view engine','ejs')   
 
 app.use('/home', homeController)
-app.use('/account', registerAndLoginController)
+app.use('/login', registerAndLoginController)
 app.use('/payment', paymentController)
 app.use('/thanks',thanksController)
 app.use('/storelocator', storelocatorController)
 app.use('/help', helpController)
+app.post('/signup',register)
+app.post('/signin',login)
+app.use('/oauth', googleoauthController)
+
+
 
 module.exports = ()=>{
     app.listen( 7000, async () => {
         try {
-            // await mongodbConnect()
+            await mongodbConnect()
             console.log("Server is running on the port 7000")
         } catch (error) {
             console.log({
@@ -37,3 +45,4 @@ module.exports = ()=>{
         }
     })
 }
+

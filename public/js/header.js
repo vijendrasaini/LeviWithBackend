@@ -20,11 +20,11 @@ const navbar = ()=>{
     </div>
     <div>
         <ul class="category-name">
-            <li> <span><a href="./menProducts.html">MEN</a></span>
+            <li> <span><a href="/men">MEN</a></span>
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href="./menProducts.html"> Jeans</a></li>
+                        <li><a href="/men/jeans"> Jeans</a></li>
                         <li><a href="./menProducts.html"> Pants</a></li>
                         <li><a href="./menProducts.html"> Shorts</a></li>
                         <li><a href="./menProducts.html"> T-Shirts & Polos</a></li>
