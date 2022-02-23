@@ -65,7 +65,6 @@ function singInWithGoogle(){
 
 
 
-// let userDetails = JSON.parse(localStorage.getItem("users"));
 
 // let url1 = "http://127.0.0.1:7000/api/allusers";
 
