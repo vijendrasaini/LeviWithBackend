@@ -1,5 +1,6 @@
 const { Router } = require('express')
 const router = Router()
+const crudController = require("./crud.controller")
 
 router.get('', async ( req, res)=>{
     try {
