@@ -37,7 +37,6 @@ router.get( '/:subCat/:id',async ( req, res )=>{
 
 router.get( '',async ( req, res )=>{
     try {
-        console.log(req.query)
         let filter = {}
         if(req.query.prefn1)
         {
@@ -67,7 +66,7 @@ router.get( '',async ( req, res )=>{
             gender2 : "unisex",
             item_type1 : "jackets" ,
             item_type2 : "jeans",
-            item_type3 : "T -Shirts & POLOS"
+            item_type3 : "T -Shirts and POLOS"
         }
         return res.render('ejs/menProducts.ejs', { men , pfvalues })
     } catch (error) {
