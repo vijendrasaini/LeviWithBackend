@@ -1,0 +1,939 @@
+{
+    "jeans": 
+    [
+    {
+	  "item": 1,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182980932,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Medium Indigo"
+      ],
+      "price": {
+        "mrp": 5999.00,
+        "price":5999.00 
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 1,
+		"42": 0
+      },
+      "image": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8263caf8/images/hi-res/182980932/182980932_01_Front.jpg?sw=334&sh=445",
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw35bd52f5/images/hi-res/182980932/182980932_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7ae7a3ae/images/hi-res/182980932/182980932_03_Side.jpg?sw=334&sh=445"
+		
+	 ],
+	  "lowres_img": [
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8263caf8/images/hi-res/182980932/182980932_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw35bd52f5/images/hi-res/182980932/182980932_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7ae7a3ae/images/hi-res/182980932/182980932_03_Side.jpg?sw=75&sh=100"
+	  ],
+      "description":  "A modern slim with room to move, the 511™ slim fit jeans have added stretch for all-day comfort. They offer a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "53% Cotton, 23.5% Viscose, 12.5% Hemp, 9.5% Polyester, 1.5% Elastane"
+      ]
+    },
+	
+	
+	{
+	  "item": 2,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182980933,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "deep blue"
+      ],
+      "price": {
+        "mrp": 5999.00,
+        "price":5999.00 
+      },
+      "size": {
+        "28": 1,
+        "30": 0,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 1,
+		"42": 1
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3ac10a6e/images/hi-res/182980933/182980933_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dweb69c724/images/hi-res/182980933/182980933_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw45bd400c/images/hi-res/182980933/182980933_03_Side.jpg?sw=334&sh=445"
+		
+		],
+		"lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3ac10a6e/images/hi-res/182980933/182980933_01_Front.jpg?sw=75&sh=100",
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dweb69c724/images/hi-res/182980933/182980933_02_Back.jpg?sw=75&sh=100",
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw45bd400c/images/hi-res/182980933/182980933_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ slim fit jeans have added stretch for all-day comfort. They offer a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "53% Cotton, 23.5% Viscose, 12.5% Hemp, 9.5% Polyester, 1.5% Elastane"
+      ]
+    },
+	
+	
+	{
+	  "item": 3,
+      "title": "LEVI'S® 512 TAPERED FIT JEANS",
+      "item_no": 596070045,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "indigo"
+      ],
+      "price": {
+        "mrp": 11000.00,
+		"disc": 50,
+        "price":  5500.00
+      },
+      "size": {
+        "28": 0,
+        "30": 0,
+        "32": 0,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw728a1599/images/hi-res/596070045/596070045_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw745114e2/images/hi-res/596070045/596070045_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3e304910/images/hi-res/596070045/596070045_10_Model%20Front.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw728a1599/images/hi-res/596070045/596070045_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw745114e2/images/hi-res/596070045/596070045_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3e304910/images/hi-res/596070045/596070045_10_Model%20Front.jpg?sw=75&sh=100"
+		],
+      "description":  "Your off-duty look couldn't be more casual than with these Levi's indigo jeans. Match these jeans with a striped T-shirt.",
+      "fit": [
+        "Inseam Length:32",
+        "Slim through the seat and thigh",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "98% Cotton, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 4,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 564970084,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Indigo"
+       
+      ],
+      "price": {
+        "mrp": 11000.00,
+		"disc": 50,
+        "price":  5500.00
+      },
+      "size": {
+        "28": 0,
+        "30": 0,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 0,
+		"42": 0
+      },
+      
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw98de7ffc/images/hi-res/564970084/564970084_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw17645f16/images/hi-res/564970084/564970084_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd63bfe79/images/hi-res/564970084/564970084_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw98de7ffc/images/hi-res/564970084/564970084_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw17645f16/images/hi-res/564970084/564970084_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd63bfe79/images/hi-res/564970084/564970084_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Rock that everyday stylish look wearing these Levi's indigo jeans. Pair these jeans with canvas sneakers for a laid-back look.",
+      "fit": [
+        "Inseam Length:32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "98% Cotton, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 5,
+      "title": "LEVI'S® 501 ORIGINAL FIT JEANS",
+      "item_no": "005012442" ,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "blue"
+      ],
+      "price": {
+        "mrp": 5101.00,
+        "price": 5101.00
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2f7de1a5/images/hi-res/005012442/005012442_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw23f27493/images/hi-res/005012442/005012442_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw569b03ed/images/hi-res/005012442/005012442_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2f7de1a5/images/hi-res/005012442/005012442_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw23f27493/images/hi-res/005012442/005012442_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw569b03ed/images/hi-res/005012442/005012442_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Since Levi's® invented it in 1873, the 501® Original has been an icon with the signature button fly and an authentic look and feel. They sit at the waist and are regular through the thigh with a straight leg. They can be worn with a clean rolled hem or full length, whichever you prefer and they look especially great with a Levi’s® Trucker Jacket.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit Through Thigh, Straight Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "99% Cotton, 1% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 6,
+      "title": "99% Cotton, 1% Elastane",
+      "item_no": 163820023,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Cobalt Blue"
+        
+      ],
+      "price": {
+        "mrp": 4699.00,
+        "price": 4699.00
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 1,
+		"42": 0
+      },
+      
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw97015f82/images/hi-res/163820023/163820023_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw406a638b/images/hi-res/163820023/163820023_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw809d18d4/images/hi-res/163820023/163820023_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw97015f82/images/hi-res/163820023/163820023_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw406a638b/images/hi-res/163820023/163820023_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw809d18d4/images/hi-res/163820023/163820023_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Made in 1969 to fit over boots, the 517™ Bootcut Jeans are slim through the thigh with an authentic bootcut leg. They're durable, comfortable and have always looked good.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim through hip and thigh, Bootcut leg opening",
+        "Sits At Waist",
+        "Sits At Waist"
+      ],
+      "material": [
+        "68% Cotton, 30% Polyester, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 7,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182980993,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "cobalt blue"
+      ],
+      "price": {
+        "mrp": 4699.00,
+        "price": 4699.00
+      },
+       "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 1,
+		"42": 1
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7581c373/images/hi-res/182980993/182980993_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw537f0545/images/hi-res/182980993/182980993_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8e83056e/images/hi-res/182980993/182980993_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7581c373/images/hi-res/182980993/182980993_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw537f0545/images/hi-res/182980993/182980993_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8e83056e/images/hi-res/182980993/182980993_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ slim fit jeans have added stretch for all-day comfort. They offer a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "65% Cotton, 30% Polyester, 5% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 8,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 564970038,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Black"
+      ],
+      "price": {
+        "mrp": 9000.00,
+		"disc": 50,
+        "price":4500.00 
+      },
+      "size": {
+        "28": 1,
+        "30": 0,
+        "32": 0,
+        "34": 0,
+        "36": 0,
+		"38": 0,
+		"40": 0,
+		"42": 0
+      },
+      
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4bb7a805/images/hi-res/564970038/564970038_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc0b45871/images/hi-res/564970038/564970038_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw903d1cb8/images/hi-res/564970038/564970038_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4bb7a805/images/hi-res/564970038/564970038_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc0b45871/images/hi-res/564970038/564970038_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw903d1cb8/images/hi-res/564970038/564970038_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Wear these cool Levi's black jeans to sport a classic rugged style. Match these jeans with white canvas sneakers for a laid-back look.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "98% Cotton, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 9,
+      "title": "LEVI'S 551™ Z STRAIGHT FIT JEANS",
+      "item_no": 175990002,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "True Indigo"
+      ],
+      "price": {
+        "mrp": 9000.00,
+		"disc": 50,
+        "price": 4500.00
+      },
+      "size": {
+        "28": 0,
+        "30": 1,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcbc9b82d/images/hi-res/175990002/175990002_01_Front.jpg?sw=334&sh=445",
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw47b6dd93/images/hi-res/175990002/175990002_02_Back.jpg?sw=334&sh=445",
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw13b46c97/images/hi-res/175990002/175990002_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcbc9b82d/images/hi-res/175990002/175990002_01_Front.jpg?sw=75&sh=100",
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw47b6dd93/images/hi-res/175990002/175990002_02_Back.jpg?sw=75&sh=100",
+	    "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw13b46c97/images/hi-res/175990002/175990002_03_Side.jpg?sw=75&sh=100"
+		],
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "100% Cotton"
+      ]
+    },
+	
+	{
+	  "item": 10,
+      "title": "512™ SLIM TAPERED FIT JEANS",
+      "item_no": 360870258,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Air Born Indigo"
+      ],
+      "price": {
+        "mrp": 4299.00,
+        
+        "price": 4299.00
+      },
+      "size": {
+        "28": 0,
+        "30": 1,
+        "32": 0,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwedad4bec/images/hi-res/360870258/360870258_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb3b4b7df/images/hi-res/360870258/360870258_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9653ea4e/images/hi-res/360870258/360870258_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwedad4bec/images/hi-res/360870258/360870258_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb3b4b7df/images/hi-res/360870258/360870258_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9653ea4e/images/hi-res/360870258/360870258_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Levi’s® 512™ Taper Jeans strike the perfect balance between skinny and tapered. A go-to for every occasion, it has a slimmer leg than the Levi's® 511™ with a tailor-inspired cut that highlights whatever shoes you choose to wear and the right amount of stretch for all-day comfort.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "72% Cotton,25% Polyester,3% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 11,
+      "title": "511™ SLIM FIT JEANS",
+      "item_no": 182980878,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Lemonade"
+      ],
+      "price": {
+        "mrp": 4199.00,
+        "price": 4199.00
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 0,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 1,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4d48f63f/images/hi-res/182980878/182980878_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw17d51272/images/hi-res/182980878/182980878_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw5278abf9/images/hi-res/182980878/182980878_2.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw4d48f63f/images/hi-res/182980878/182980878_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw17d51272/images/hi-res/182980878/182980878_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw5278abf9/images/hi-res/182980878/182980878_2.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+     "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "79% Cotton,11% Polyester,8% Linen,2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 12,
+      "title": "511™ STYLED DENIM SLIM FIT JEANS",
+      "item_no":159590005 ,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Spaced Indigo"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00 
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw00df3f8f/images/hi-res/159590005/159590005_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw769953cf/images/hi-res/159590005/159590005_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw37fa5144/images/hi-res/159590005/159590005_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw00df3f8f/images/hi-res/159590005/159590005_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw769953cf/images/hi-res/159590005/159590005_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw37fa5144/images/hi-res/159590005/159590005_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "78.5% Cotton,20% Polyester,1.5% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 13,
+      "title": "LEVI'S® 512 SLIM FIT JEANS",
+      "item_no": 360870318,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "True Indigo"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00
+      },
+      "size": {
+       "28": 0,
+        "30": 0,
+        "32": 0,
+        "34": 0,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw80a209f8/images/hi-res/360870318/360870318_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw054e4229/images/hi-res/360870318/360870318_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw96cfe29f/images/hi-res/360870318/360870318_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw80a209f8/images/hi-res/360870318/360870318_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw054e4229/images/hi-res/360870318/360870318_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw96cfe29f/images/hi-res/360870318/360870318_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Levi’s® 512™ Taper Jeans strike the perfect balance between skinny and tapered. A go-to for every occasion, it has a slimmer leg than the Levi's® 511™ with a tailor-inspired cut that highlights whatever shoes you choose to wear and the right amount of stretch for all-day comfort.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "73.5% Cotton, 25% Polyester, 1.5% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 14,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no":"A02110005",
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Medium Indigo"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00
+      },
+      "size": {
+        "28": 0,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 1,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb2363523/images/hi-res/A02110005/A02110005_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw37093e27/images/hi-res/A02110005/A02110005_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw413bbc18/images/hi-res/A02110005/A02110005_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb2363523/images/hi-res/A02110005/A02110005_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw37093e27/images/hi-res/A02110005/A02110005_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw413bbc18/images/hi-res/A02110005/A02110005_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "71% Cotton, 22% Polyester, 5% Viscose, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 15,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182981043,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Aquamarine"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00
+      },
+      "size": {
+       "28": 0,
+        "30": 1,
+        "32": 0,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 0,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd43dbdcd/images/hi-res/182981043/182981043_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw10b7165b/images/hi-res/182981043/182981043_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7fb55c9b/images/hi-res/182981043/182981043_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd43dbdcd/images/hi-res/182981043/182981043_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw10b7165b/images/hi-res/182981043/182981043_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7fb55c9b/images/hi-res/182981043/182981043_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "73.5% Cotton, 25% Polyester, 1.5% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 16,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182981049,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Deep Indigo"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price":3999.00 
+      },
+      "size": {
+       "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6fdfac4d/images/hi-res/182981049/182981049_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw590c27de/images/hi-res/182981049/182981049_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw54ba47ce/images/hi-res/182981049/182981049_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6fdfac4d/images/hi-res/182981049/182981049_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw590c27de/images/hi-res/182981049/182981049_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw54ba47ce/images/hi-res/182981049/182981049_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "71% Cotton, 22% Polyester, 5% Viscose, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 17,
+      "title": "LEVI'S® 512 SLIM FIT JEANS",
+      "item_no":360870310,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Indigo Rinse"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price":3999.00 
+      },
+      "size": {
+       "28": 0,
+        "30": 0,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 0,
+		"40": 0,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2077abf4/images/hi-res/360870310/360870310_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8c3bd7e8/images/hi-res/360870310/360870310_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1e6ad54c/images/hi-res/360870310/360870310_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2077abf4/images/hi-res/360870310/360870310_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8c3bd7e8/images/hi-res/360870310/360870310_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1e6ad54c/images/hi-res/360870310/360870310_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "Levi’s® 512™ Taper Jeans strike the perfect balance between skinny and tapered. A go-to for every occasion, it has a slimmer leg than the Levi's® 511™ with a tailor-inspired cut that highlights whatever shoes you choose to wear and the right amount of stretch for all-day comfort.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "98% Cotton, 2% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 18,
+      "title": "LEVI'S® 513 SLIM FIT JEANS",
+      "item_no":236770231 ,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Azure"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price":3999.00
+      },
+      "size": {
+       "28": 0,
+        "30": 1,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7384b3bd/images/hi-res/236770231/236770231_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2599e4dd/images/hi-res/236770231/236770231_02_Side.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7b35dd0e/images/hi-res/236770231/236770231_03_Back.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7384b3bd/images/hi-res/236770231/236770231_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2599e4dd/images/hi-res/236770231/236770231_02_Side.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7b35dd0e/images/hi-res/236770231/236770231_03_Back.jpg?sw=75&sh=100"
+		],
+      "description":  "A versatile fit that is slim without being too narrow, the 513™ Slim Straight Jean has a comfortable feel and clean-cut silhouette for modern style.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "82% Cotton, 17% Polyester, 1% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 19,
+      "title": "LEVI'S® SKINNY TAPERED JEANS",
+      "item_no": 213010020,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Indigo"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00
+      },
+      "size": {
+       "28": 0,
+        "30": 1,
+        "32": 1,
+        "34": 1,
+        "36": 1,
+		"38": 1,
+		"40": 0,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7e1400eb/images/hi-res/213010020/213010020_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14e686e3/images/hi-res/213010020/213010020_03_Side.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb37f782f/images/hi-res/213010020/213010020_04_Front%20details.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7e1400eb/images/hi-res/213010020/213010020_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14e686e3/images/hi-res/213010020/213010020_03_Side.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb37f782f/images/hi-res/213010020/213010020_04_Front%20details.jpg?sw=75&sh=100"
+		],
+      "description":  "Flaunt your wild and carefree attitude wearing these cool Levi's® Skinny Tapered Jeans. Style these jeans with a t-shirt.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "85% Cotton, 13.5% Polyester, 1.5% Elastane"
+      ]
+    },
+	
+	{
+	  "item": 20,
+      "title": "LEVI'S® 511 SLIM FIT JEANS",
+      "item_no": 182981055,
+      "gender": "men",
+      "category": "men",
+      "item_type": "jeans",
+      "color": [
+        "Dark Denim"
+      ],
+      "price": {
+        "mrp": 3999.00,
+        "price": 3999.00
+      },
+      "size": {
+        "28": 1,
+        "30": 1,
+        "32": 1,
+        "34": 0,
+        "36": 1,
+		"38": 1,
+		"40": 1,
+		"42": 0 
+      },
+      "image": [
+        "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwbe0d3f14/images/hi-res/182981055/182981055_01_Front.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf4f8703c/images/hi-res/182981055/182981055_02_Back.jpg?sw=334&sh=445",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwba604831/images/hi-res/182981055/182981055_03_Side.jpg?sw=334&sh=445"
+      ],
+	  "lowres_img": [
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwbe0d3f14/images/hi-res/182981055/182981055_01_Front.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf4f8703c/images/hi-res/182981055/182981055_02_Back.jpg?sw=75&sh=100",
+		"https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwba604831/images/hi-res/182981055/182981055_03_Side.jpg?sw=75&sh=100"
+		],
+      "description":  "A modern slim with room to move, the 511™ Slim Fit Jean has added stretch for all-day comfort. It offers a lean look and is a great alternative to skinny jeans.",
+      "fit": [
+        "Inseam Length: 32",
+        "Slim Fit From Hip To Ankle, Slim Leg",
+        "Sits At Waist",
+        "Zip Fly with Button Closure"
+      ],
+      "material": [
+        "82% Cotton, 17% Polyester, 1% Elastane"
+      ]
+    }
+]
+}
+    

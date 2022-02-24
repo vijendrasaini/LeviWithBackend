@@ -1,0 +1,895 @@
+{
+
+
+  "tshirts&polos":
+  [
+      {
+            "item": 1,
+            "title": "LEVI'S® X WELL THREAD SOLID TEE",
+            "item_no": "A02970000",
+            "gender": "men",
+            "category": "men",
+            "item_type": "T-Shirts & POLOS",
+            "color": [
+              "Neutral"
+            ],
+            "price": {
+              "mrp": 6000.00,
+              "disc": 50,
+              "price": 3000.00
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 0,
+              "XXL": 0
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw230814d1/images/hi-res/A02970000/A02970000_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8d9d02fe/images/hi-res/A02970000/A02970000_02_Back.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw230814d1/images/hi-res/A02970000/A02970000_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8d9d02fe/images/hi-res/A02970000/A02970000_02_Back.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Regular Fit",
+              "Mock Neck",
+              "Long Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          
+          {
+            "item": 2,
+            "title": "LEVI'S® SOLID TEE",
+            "item_no": "A13630001",
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Tinsel"
+            ],
+            "price": {
+              "mrp": 2099.00,
+              "price": 2099.00
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 0
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe25f3f0c/images/hi-res/A13630001/A13630001_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe55a74c2/images/hi-res/A13630001/A13630001_02_Back.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe25f3f0c/images/hi-res/A13630001/A13630001_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe55a74c2/images/hi-res/A13630001/A13630001_02_Back.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Loose Fit",
+              "Crew Neck",
+              "Three-Quarter Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 3,
+            "title": "LEVI'S® SOLID TEE",
+            "item_no": "A13630000",
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Grey Melange"
+            ],
+            "price": {
+              "mrp": 2099.00,
+              "price": 2099.00 
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3ec49982/images/hi-res/A13630000/A13630000_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw71b39b12/images/hi-res/A13630000/A13630000_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8b56ac1c/images/hi-res/A13630000/A13630000_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3ec49982/images/hi-res/A13630000/A13630000_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw71b39b12/images/hi-res/A13630000/A13630000_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8b56ac1c/images/hi-res/A13630000/A13630000_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Loose Fit",
+              "Crew Neck",
+              "Three-Quarter Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 4,
+            "title": "LEVI'S® X POKEMON GRAPHIC HOODIE",
+            "item_no": 592130003,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Black"
+            ],
+            "price": {
+              "mrp": 3999.00,
+              "disc": 50,
+              "price": 1999.50
+            },
+            "size": {
+              "S": 0,
+              "M": 0,
+              "L": 0,
+              "XL": 0,
+              "XXL": 1
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd7a19284/images/hi-res/592130003/592130003_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwacd6ef71/images/hi-res/592130003/592130003_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa43d80bb/images/hi-res/592130003/592130003_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd7a19284/images/hi-res/592130003/592130003_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwacd6ef71/images/hi-res/592130003/592130003_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa43d80bb/images/hi-res/592130003/592130003_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Your favorite characters. Your favorite denim. Celebrating 25 years of Pokémon. We designed this collaboration to capture the playful spirit of the Pokémon world.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              "Long sleeves"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 5,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 174740182,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Placid Blue"
+            ],
+            "price": {
+              "mrp": 1999.00,
+              "price": 1999.00
+            },
+            "size": {
+              "S": 0,
+              "M": 0,
+              "L": 0,
+              "XL": 0,
+              "XXL": 1
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcfa9f7f2/images/hi-res/174740182/174740182_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb20bf660/images/hi-res/174740182/174740182_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc884bcd4/images/hi-res/174740182/174740182_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcfa9f7f2/images/hi-res/174740182/174740182_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwb20bf660/images/hi-res/174740182/174740182_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc884bcd4/images/hi-res/174740182/174740182_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+              "Short Sleeve"
+            ],
+            "material": [
+              "60% Cotton, 40% Polyester"
+            ]
+          },
+          
+          {
+            "item": 6,
+            "title": "LEVI'S® X WELL THREAD GRAPHIC TEE",
+            "item_no": 875350003,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Thistle Grey Grey"
+            ],
+            "price": {
+              "mrp": 3000.00,
+              "disc": 50,
+              "price": 1500.00
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9fee303f/images/hi-res/875350003/875350003_01_Front.jpg?sw=334&sh=445",
+                 "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw06216f94/images/hi-res/875350003/875350003_02_Back.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+            "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9fee303f/images/hi-res/875350003/875350003_01_Front.jpg?sw=75&sh=100",
+                 "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw06216f94/images/hi-res/875350003/875350003_02_Back.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 7,
+            "title": "LEVI'S® X WELL THREAD SOLID TEE",
+            "item_no": 875350002,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              
+              "Grey"
+            ],
+            "price": {
+              "mrp": 3000.00,
+              "disc": 50,
+              "price": 1500.00 
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw49e4e693/images/hi-res/875350002/875350002_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa6555a2d/images/hi-res/875350002/875350002_02_Back.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw49e4e693/images/hi-res/875350002/875350002_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa6555a2d/images/hi-res/875350002/875350002_02_Back.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Relaxed Fit",
+              "Crew Neck",
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 8,
+            "title": "SPREAD KINDNESS SWEATSHIRT",
+            "item_no": 384580030,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Spread Kindness Grey Melange"
+             
+            ],
+            "price": {
+              "mrp": 2999.00,
+              "disc": 50,
+              "price": 1499.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7e2619e4/images/hi-res/384580030/384580030_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3052f8d8/images/hi-res/384580030/384580030_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw025b7bc9/images/hi-res/384580030/384580030_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw7e2619e4/images/hi-res/384580030/384580030_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3052f8d8/images/hi-res/384580030/384580030_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw025b7bc9/images/hi-res/384580030/384580030_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Kindness is at the heart of the human spirit and Timur York reminds us that we have the power to spread that with this design as part of Spread The Word; a capsule collection designed for our changing times in partnership with Amplifier. Amplifier.org is a nonprofit design lab that builds art and media experiments to amplify the most important movements of our times. They design and distribute art that engages people in the creation of a more just, inclusive, and sustainable future.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              "Long sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 9,
+            "title": "STAY HOME SAVE LIVES SWEATSHIRT",
+            "item_no": 596380046,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              
+              "Stay Home Black"
+            ],
+            "price": {
+              "mrp": 2999.00,
+              "disc": 50,
+              "price": 1499.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc1f2f7c6/images/hi-res/596380046/596380046_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe1c2f964/images/hi-res/596380046/596380046_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw52b90a58/images/hi-res/596380046/596380046_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc1f2f7c6/images/hi-res/596380046/596380046_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwe1c2f964/images/hi-res/596380046/596380046_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw52b90a58/images/hi-res/596380046/596380046_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Designed by Dennis Vernooij, this comfortable sweatshirt is a quick reminder to those who seem to be forgetting where our biggest hope is at home. This t-shirt is part of the Spread The World capsule collection created in partnership with Amplifier that aims to spread positivity once more during these changing times.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              "Long sleeve"
+            ],
+            "material": [
+              "100% Cotton, French Terry"
+            ]
+          },
+          
+          {
+            "item": 10,
+            "title": "STAY SWEATSHIRT",
+            "item_no": 384580031,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Stay Navy Blue"
+            ],
+            "price": {
+              "mrp": 2999.00,
+              "disc": 50,
+              "price": 1499.50 
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 0,
+              "XL": 0,
+              "XXL": 0
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw898d9337/images/hi-res/384580031/384580031_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw19dcf0f7/images/hi-res/384580031/384580031_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14f685a3/images/hi-res/384580031/384580031_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw898d9337/images/hi-res/384580031/384580031_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw19dcf0f7/images/hi-res/384580031/384580031_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14f685a3/images/hi-res/384580031/384580031_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "All roads lead to home and so does this sweatshirt with the design created by Chris Maze in partnership with Amplifier. Spread The Word with this capsule collection created to spread messages of positivity and remind those around you to stay safe. Amplifier.org is a nonprofit design lab that builds art and media experiments to amplify the most important movements of our times. They design and distribute art that engages people in the creation of a more just, inclusive, and sustainable future.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              "Long sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 11,
+            "title": "LEVI'S® SOLID TEE",
+            "item_no": 873860001,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+             
+              "Blue"
+            ],
+            "price": {
+              "mrp": 2799.00,
+              "disc": 50,
+              "price":  1399.50
+            },
+            "size": {
+              "S": 1,
+              "M": 0,
+              "L": 1,
+              "XL": 0,
+              "XXL": 0
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1eb8fcde/images/hi-res/873860001/873860001_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8dd55b6d/images/hi-res/873860001/873860001_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwae3f3b3e/images/hi-res/873860001/873860001_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1eb8fcde/images/hi-res/873860001/873860001_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8dd55b6d/images/hi-res/873860001/873860001_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwae3f3b3e/images/hi-res/873860001/873860001_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Relaxed Fit",
+              "Crew Neck",
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Linen"
+            ]
+          },
+          
+          {
+            "item": 12,
+            "title": "LEVI'S® SOLID TEE",
+            "item_no": 873860000,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+            
+              "Bright White"
+            ],
+            "price": {
+              "mrp": 2799.00,
+              "disc": 50,
+              "price": 1399.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 0,
+              "XXL": 1
+            },
+           
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwffbbbf65/images/hi-res/873860000/873860000_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw64b0bdb4/images/hi-res/873860000/873860000_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3e4b8a37/images/hi-res/873860000/873860000_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwffbbbf65/images/hi-res/873860000/873860000_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw64b0bdb4/images/hi-res/873860000/873860000_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw3e4b8a37/images/hi-res/873860000/873860000_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Relaxed Fit",
+              "Crew Neck",
+              
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Linen"
+            ]
+          },
+          
+          {
+            "item": 13,
+            "title": "LEVI'S® GRAPHIC TEE",
+            "item_no": 169600506,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+             
+              "Navy"
+            ],
+            "price": {
+              "mrp": 1399.00,
+              
+              "price": 1399.00
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 0
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6f6b1945/images/hi-res/169600506/169600506_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw86e8fe98/images/hi-res/169600506/169600506_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9e50a660/images/hi-res/169600506/169600506_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw6f6b1945/images/hi-res/169600506/169600506_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw86e8fe98/images/hi-res/169600506/169600506_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9e50a660/images/hi-res/169600506/169600506_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 14,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 268570000,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+             
+              "Polo White"
+            ],
+            "price": {
+              "mrp": 2599.00,
+              "disc": 50,
+              "price": 1299.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf7ef22df/images/hi-res/268570000/268570000_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw49e560bc/images/hi-res/268570000/268570000_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcb09dcbb/images/hi-res/268570000/268570000_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf7ef22df/images/hi-res/268570000/268570000_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw49e560bc/images/hi-res/268570000/268570000_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwcb09dcbb/images/hi-res/268570000/268570000_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The Levi's® Redloop™ collection represents the dynamic and evolving face of jeanswear. The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+             
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 15,
+            "title": "IT WILL BE OKAY IN THE END SWEATSHIRT",
+            "item_no": 596380047,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+            
+              "All Will Be Okay Black"
+            ],
+            "price": {
+              "mrp": 2999.00,
+              "disc": 60,
+              "price": 1199.60 
+            },
+            "size": {
+              "S": 0,
+              "M": 0,
+              "L": 0,
+              "XL": 1,
+              "XXL": 0
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9d3553cf/images/hi-res/596380047/596380047_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1495b7ca/images/hi-res/596380047/596380047_02_Back.jpg?sw=334&sh=445",
+              "=https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9a1c77ef/images/hi-res/596380047/596380047_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9d3553cf/images/hi-res/596380047/596380047_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1495b7ca/images/hi-res/596380047/596380047_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9a1c77ef/images/hi-res/596380047/596380047_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "If all’s well that ends well, then this design by Mark Blamire is a reminder that it’s not the end yet and we have a long way to go. Together. This t-shirt and design were created as part of Spread The Word, a capsule collection designed for our changing times in partnership with Amplifier. Amplifier.org is a nonprofit design lab that builds art and media experiments to amplify the most important movements of our times. They design and distribute art that engages people in the creation of a more just, inclusive, and sustainable future.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+              
+              "Long sleeve"
+            ],
+            "material": [
+              "100% Cotton, French Terry"
+            ]
+          },
+          
+          {
+            "item": 16,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 747000095,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Colonial Blue",
+              "Peyote",
+              "Black Beauty"
+            ],
+            "price": {
+              "mrp": 2399.00,
+              "disc": 50,
+              "price": 1199.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwbaf25096/images/hi-res/747000095/747000095_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw75d14e03/images/hi-res/747000095/747000095_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1d9f5a4b/images/hi-res/747000095/747000095_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwbaf25096/images/hi-res/747000095/747000095_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw75d14e03/images/hi-res/747000095/747000095_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw1d9f5a4b/images/hi-res/747000095/747000095_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+             
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 17,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 747000092,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              "Orangeade",
+              
+              "Brilliant White"
+            ],
+            "price": {
+              "mrp": 2399.00,
+              "disc": 50,
+              "price": 1199.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw019d8358/images/hi-res/747000092/747000092_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw84a6fd76/images/hi-res/747000092/747000092_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw277dc215/images/hi-res/747000092/747000092_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw019d8358/images/hi-res/747000092/747000092_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw84a6fd76/images/hi-res/747000092/747000092_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw277dc215/images/hi-res/747000092/747000092_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+             
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 18,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 747000031,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+             
+              "Jacquard White"
+            ],
+            "price": {
+              "mrp": 2399.00,
+              "disc": 50,
+              "price": 1199.50 
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw604f3295/images/hi-res/747000031/747000031_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8832b420/images/hi-res/747000031/747000031_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf5ae4b8d/images/hi-res/747000031/747000031_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw604f3295/images/hi-res/747000031/747000031_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw8832b420/images/hi-res/747000031/747000031_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwf5ae4b8d/images/hi-res/747000031/747000031_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+              "Short Sleeve",
+              "Button Fly and Closure"
+            ],
+            "material": [
+              "100% COTTON"
+            ]
+          },
+          
+          {
+            "item": 19,
+            "title": "LEVI'S® POLO TEE",
+            "item_no": 747000096,
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+             
+              "Multicolour"
+            ],
+            "price": {
+              "mrp": 2399.00,
+              "disc": 50,
+              "price": 1199.50
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 1
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9611c9e5/images/hi-res/747000096/747000096_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd6bd6390/images/hi-res/747000096/747000096_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc6769db3/images/hi-res/747000096/747000096_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw9611c9e5/images/hi-res/747000096/747000096_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwd6bd6390/images/hi-res/747000096/747000096_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc6769db3/images/hi-res/747000096/747000096_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "The polo shirt is an enduring silhouette with endless functionality. It gives you the comfort of a tee, but is upgraded with refined details for a slightly stepped-up look.",
+            "fit": [
+              "Regular Fit",
+              "Polo Collar",
+             
+              "Short Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          },
+          
+          {
+            "item": 20,
+            "title": "LEVI'S® COLOURBLOCK TEE",
+            "item_no": "A13660000",
+            "gender": "men",
+            "category": "men",
+            "item_type": "T -Shirts & POLOS",
+            "color": [
+              
+              "Indigo"
+            ],
+            "price": {
+              "mrp": 2399.00,
+              "disc": 50,
+              "price": 1199.50 
+            },
+            "size": {
+              "S": 1,
+              "M": 1,
+              "L": 1,
+              "XL": 1,
+              "XXL": 0
+            },
+            
+            "image": [
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw59f9aa17/images/hi-res/A13660000/A13660000_01_Front.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc7dc765d/images/hi-res/A13660000/A13660000_02_Back.jpg?sw=334&sh=445",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2b0ec5fe/images/hi-res/A13660000/A13660000_03_Side.jpg?sw=334&sh=445"
+            ],
+            "lowres_img":[
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw59f9aa17/images/hi-res/A13660000/A13660000_01_Front.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwc7dc765d/images/hi-res/A13660000/A13660000_02_Back.jpg?sw=75&sh=100",
+              "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw2b0ec5fe/images/hi-res/A13660000/A13660000_03_Side.jpg?sw=75&sh=100"
+            ],
+            "description":  "Perfect for your on-the-go life, this shirt makes outfitting easier then ever. We cut this button-up to flatter your shape in the most subtle way, while still providing an easy fit and drape.",
+            "fit": [
+              "Regular Fit",
+              "Crew Neck",
+            
+              "Long Sleeve"
+            ],
+            "material": [
+              "100% Cotton"
+            ]
+          }
+      ]
+  }
+
+  
