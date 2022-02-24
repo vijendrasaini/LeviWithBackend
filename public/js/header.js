@@ -24,12 +24,12 @@ const navbar = ()=>{
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href="/men/jeans"> Jeans</a></li>
+                        <li><a href="men?prefn1=item_type&prefv1=jeans"> Jeans</a></li>
                         <li><a href=""> Pants</a></li>
                         <li><a href=""> Shorts</a></li>
-                        <li><a href=""> T-Shirts & Polos</a></li>
+                        <li><a href="/men?prefn1=item_type&prefv1=T%20-Shirts%20and%20POLOS"> T-Shirts & Polos</a></li>
                         <li><a href=""> Shirts</a></li>
-                        <li><a href=""> Jackets</a></li>
+                        <li><a href="/men?prefn1=item_type&prefv1=jackets"> Jackets</a></li>
                         <li><a href=""> Sweaters & Sweatshirts</a></li>
                     </ul>
 
