@@ -37,6 +37,7 @@ router.get( '/:subCat/:id',async ( req, res )=>{
 
 router.get( '',async ( req, res )=>{
     try {
+        console.log(req.query)
         let filter = {}
         if(req.query.prefn1)
         {
@@ -59,7 +60,7 @@ router.get( '',async ( req, res )=>{
                 filter[prefn[index]] = o1
             })
         }
-        
+        console.log(filter)
         const men = await Man.find(filter).lean().exec()
         const pfvalues = {
             gender1 : "men",

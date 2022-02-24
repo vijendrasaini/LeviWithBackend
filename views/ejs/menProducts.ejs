@@ -41,7 +41,7 @@
                     <span class="openAndClose"><i class="fas fa-plus-circle"></i></span>
                 </div>
                 <div class="openAndCloseDiv" id="openAndCloseDiv0">
-                    <input type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender1}`%> onclick="onclickFunc()">
+                    <input id="api" type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender1}`%> onclick="onclickFunc()">
                     <label for=""><%=`${pfvalues.gender1}`%></label> <br>
                     <input type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender2}`%> onclick="onclickFunc()">
                     <label for=""><%=`${pfvalues.gender2}`%></label>
@@ -58,7 +58,7 @@
                     <label for=""><%=`${pfvalues.item_type1}`%></label> <br>
                     <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type2}`%> onclick="onclickFunc()">
                     <label for=""><%=`${pfvalues.item_type2}`%></label> <br>
-                    <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type3}`%> onclick="onclickFunc()">
+                    <input type="checkbox" class="item_type_checkboxes" value=<%=encodeURI(`${pfvalues.item_type3}`)%> onclick="onclickFunc()">
                     <label for=""><%=`${pfvalues.item_type3}`%></label> <br>
                 </div>
             </div>
@@ -85,7 +85,7 @@
             <div id="menProductDiv" >
 
                 <% for(let x of men ){  %>
-                <a <%=`href=/${pfvalues.gender1}/${x.item_type}/${x._id}`%> class="colorlessAnchorTag" >
+                <a href=<%=encodeURI(`/${pfvalues.gender1}/${x.item_type}/${x._id}`)%> class="colorlessAnchorTag" >
                 <div class="menDiv">
                     <img <%=`src=${x.highresImage[0]}`%> alt="" class="menImg">
                     <div class="menTitle"> Levi's® <%=x.title %></div>

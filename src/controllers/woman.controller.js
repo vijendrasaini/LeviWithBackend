@@ -21,8 +21,11 @@ router.post( '',async ( req, res )=>{
 
 router.get( '/:subCat/:id',async ( req, res )=>{
     try {
+        console.log({ subCat : req.params.subCat})
+        console.log({id : req.params.id})
         const women = await Woman.findById(req.params.id).lean().exec()
-        let men = women[0]
+        let man = women[0]
+        console.log(man)
         return res
         .render("ejs/product.ejs", {man })
     } catch (error) {
@@ -72,7 +75,7 @@ router.get( '',async ( req, res )=>{
         return res
         .status(500)
         .send({
-            status : "Error from /men route",
+            status : "Error from /women route",
             message : error.message
         })
     }

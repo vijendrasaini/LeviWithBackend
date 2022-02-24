@@ -54,6 +54,8 @@ function onclickFunc(){
     for(let i = 0 ; i < item_type_checkboxes.length ; i++ )  
         if(item_type_checkboxes[i].checked)
         {
+            if(i == 2)
+                item_type_checkboxes[i].value = decodeURI(item_type_checkboxes[i].value)
             iKeys.push(i)
             if(obj.flag)
                 {
@@ -75,7 +77,8 @@ function createDynamicUrl(obj,gKeys, iKeys){
         if(x.startsWith('prefv'))
             obj[x] = obj[x].join("|")
     }
-    let x = `/men?`
+    const api = document.getElementById('api').value
+    let x = `/${api}?`
     let arr = []
     for(let x in obj)
     {
@@ -86,7 +89,7 @@ function createDynamicUrl(obj,gKeys, iKeys){
     qreryRequest(x + y,gKeys, iKeys)
 }
 async function qreryRequest(url,gKeys, iKeys){
-    // console.log(url)
+    console.log(url)
     localStorage.setItem('gKeys',JSON.stringify(gKeys))
     localStorage.setItem('iKeys',JSON.stringify(iKeys))
     window.location.href = url
