@@ -122,11 +122,10 @@ body::-webkit-scrollbar-thumb{
     font-weight: bold;
     letter-spacing: .5px;
     height: 20px;
-    /* width: 301px; */
 }
 .priceDiv{
     display: grid;
-    grid-template-columns: 15% 50% 30%;
+    grid-template-columns: 25% 40% 30%;
 }
 .mrpp{
     font-size: 13.5px;
@@ -149,7 +148,10 @@ body::-webkit-scrollbar-thumb{
 #rightDiv .menDiv{
     cursor: pointer;
 }
-
+.colorlessAnchorTag{
+    color: black;
+    text-decoration: none;
+}
 @media only screen and (min-width:375px) and (max-width:768px){
     #pro_sort{
         display: grid;

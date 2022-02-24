@@ -17,25 +17,78 @@
   
   <header class="complete-header"></header>
   <div id="product_body">
-    <p id="pro_path"></p>
+    <p id="pro_path">
+      <%=`${man.gender}/clothing/${man.item_type}`%>
+    </p>
     <div id="primary">
       <div id="image_section">
-        <div id="mini_preview"></div>
-        <div id="preview"></div>
+        <div id="mini_preview">
+          <%for(let x of man.image){%>
+          <img <%=`src=${x}`%> alt="" class="mini_image">
+          <%}%>
+        </div>
+        <div id="preview"><img <%=`src=${man.image[0]}`%> alt="" class=""></div>
       </div>
-      <div id="product_details"></div>
+
+      <div id="product_details">
+        <h1 id="p_name"> <%= man.title%></h1>
+        <p id="p_num"> Item Number: <%=man.item_no%></p>
+        <div id="price_sec">
+            <span id="mrp"><%=man.price.mrp%></span>
+            <span id="price">₹ <%=man.price.price%></span>
+            <span id="disc">( <%=man.price.disc%> % off )</span>
+        </div>
+        <p>Inclusive of all taxes</p>
+        <span>Color</span>
+        <div id="colors_row">
+            <% for(let x of man.color){%>
+              <div class="color_block">
+              </div>
+            <%}%>
+        </div>
+
+        <h4>size</h4>
+        <div id="size_box">
+          <% for(let x in man.size){%>
+            <div id="size_box">
+            </div>
+          <% } %>
+        </div>
+        <h4>Delivery Eligibility</h4>
+        <div class="" id="del_div">
+          <input type="text" placeholder="Enter Pincode">
+          <button id="check_pin">CHECK</button>
+        </div>
+        <div id="buy_div">
+            <div id="qty_text">QTY</div>
+            <div id="qty_sel">
+              <option value="" id="qty_opt">
+                1
+              </option>
+            </div>
+            <button id="add_cart_btn">ADD TO CART</button>
+            <button id="buy_now">BUY NOW</button>
+        </div>
+      </div>
     </div>
     <div class="pro_info">
       <div id="desc">
-        <h4>DESCRIPTION</h3>
+          <h4>DESCRIPTION</h3>
+          <p><%=man.description%></p>
       </div>
       <div id="fit">
         <h4>FIT AND SIZING</h4>
+            <%for( let x of man.fit){%>
+              <li><%=x%> </li>
+            <%}%>
       </div>
       <div id="material">
         <h4>
           MATERIAL
         </h4>
+        <%for( let x of man.material){%>
+          <li><%=x%> </li>
+        <%}%>
       </div>
     </div>
     <hr>

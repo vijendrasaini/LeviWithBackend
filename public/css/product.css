@@ -42,14 +42,14 @@
   grid-template-rows: repeat(6, 20%);
   padding-top: 20%;
 }
-#mini_image {
+.mini_image {
   width: 63px;
   height: max-content;
   margin: 10px;
   border: 1px solid #ccc;
   cursor: pointer;
 }
-#mini_image:hover {
+.mini_image:hover {
   border: 1px solid #c41230;
 }
 

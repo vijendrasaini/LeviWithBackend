@@ -6,7 +6,7 @@ const navbar = ()=>{
             <li><a href="/help">HELP</a></li>
             <li><a href="">TRACK ORDER</a></li>
             <li><a href="/storelocator">STORE LOCATOR</a></li>
-            <li><a href="/account">SIGN IN</a></li>
+            <li><a href="/login">SIGN IN</a></li>
             <li><img src="https://media.istockphoto.com/vectors/flag-of-india-vector-id472317739?b=1&k=20&m=472317739&s=170667a&w=0&h=Ju9wPp7N7fM00TiZtVuVr_wc6elG1L-b32DMlY7JHc4=" alt=""></li>
         </ul>
     </div>
@@ -25,21 +25,21 @@ const navbar = ()=>{
                     <ul>
                         <h5>CLOTHING</h5>
                         <li><a href="/men/jeans"> Jeans</a></li>
-                        <li><a href="./menProducts.html"> Pants</a></li>
-                        <li><a href="./menProducts.html"> Shorts</a></li>
-                        <li><a href="./menProducts.html"> T-Shirts & Polos</a></li>
-                        <li><a href="./menProducts.html"> Shirts</a></li>
-                        <li><a href="./menProducts.html"> Jackets</a></li>
-                        <li><a href="./menProducts.html"> Sweaters & Sweatshirts</a></li>
+                        <li><a href=""> Pants</a></li>
+                        <li><a href=""> Shorts</a></li>
+                        <li><a href=""> T-Shirts & Polos</a></li>
+                        <li><a href=""> Shirts</a></li>
+                        <li><a href=""> Jackets</a></li>
+                        <li><a href=""> Sweaters & Sweatshirts</a></li>
                     </ul>
 
                     <ul>
                         <h5>SHOP JEANS BY FIT</h5>
-                        <li><a href="./menProducts.html"> Skinny</a></li>
-                        <li><a href="./menProducts.html"> Slim</a></li>
-                        <li><a href="./menProducts.html"> Tapered</a></li>
-                        <li><a href="./menProducts.html"> Straight</a></li>
-                        <li><a href="./menProducts.html"> Relaxed</a></li>
+                        <li><a href=""> Skinny</a></li>
+                        <li><a href=""> Slim</a></li>
+                        <li><a href=""> Tapered</a></li>
+                        <li><a href=""> Straight</a></li>
+                        <li><a href=""> Relaxed</a></li>
                     </ul>
 
                     <ul>
@@ -63,11 +63,11 @@ const navbar = ()=>{
 
                 </div>
             </li>
-            <li> <span><a href="./women.html">WOMEN</a></span>
+            <li> <span><a href="/women">WOMEN</a></span>
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href="./women.html">Jeans</a></li>
+                        <li><a href="/women/jeans">Jeans</a></li>
                         <li><a href="./women.html">T-Shirts & Tops</a></li>
                         <li><a href="./women.html">Shirts</a></li>
                         <li><a href="./women.html">Jackets</a></li>

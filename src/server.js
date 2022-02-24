@@ -11,6 +11,8 @@ const storelocatorController = require('./controllers/storelocator.controller')
 const helpController = require('./controllers/help.controller')
 const googleoauthController = require('./controllers/googleoauth.controller')
 const { register, login } = require('./controllers/authentication.controller')
+const manController = require("./controllers/man.controller")
+const womanController = require("./controllers/woman.controller")
 
 
 const app = express()
@@ -29,6 +31,8 @@ app.use('/help', helpController)
 app.post('/signup',register)
 app.post('/signin',login)
 app.use('/oauth', googleoauthController)
+app.use('/men', manController)
+app.use('/women', womanController)
 
 
 
