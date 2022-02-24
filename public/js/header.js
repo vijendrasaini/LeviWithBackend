@@ -67,22 +67,22 @@ const navbar = ()=>{
                 <div class="category-container">
                     <ul>
                         <h5>CLOTHING</h5>
-                        <li><a href="/women/jeans">Jeans</a></li>
-                        <li><a href="./women.html">T-Shirts & Tops</a></li>
-                        <li><a href="./women.html">Shirts</a></li>
-                        <li><a href="./women.html">Jackets</a></li>
-                        <li><a href="./women.html">Shirts</a></li>
-                        <li><a href="./women.html">Shorts & Skirts</a></li>
-                        <li><a href="./women.html">Pants</a></li>
-                        <li><a href="./women.html">Sweaters & Sweatshirts</a></li>
+                        <li><a href="/women?prefn1=item_type&prefv1=Jeans">Jeans</a></li>
+                        <li><a href="">T-Shirts & Tops</a></li>
+                        <li><a href="">Shirts</a></li>
+                        <li><a href="/women?prefn1=item_type&prefv1=jackets">Jackets</a></li>
+                        <li><a href="">Shirts</a></li>
+                        <li><a href="">Shorts & Skirts</a></li>
+                        <li><a href="">Pants</a></li>
+                        <li><a href="">Sweaters & Sweatshirts</a></li>
                     </ul>
                     <ul>
                         <h5>SHOP JEANS BY FIT</h5>
-                        <li><a href="./women.html">Super Skinny</a></li>
-                        <li><a href="./women.html">Skinny</a></li>
-                        <li><a href="./women.html">Slim</a></li>
-                        <li><a href="./women.html">Balloon Leg</a></li>
-                        <li><a href="./women.html">High Rise</a></li>
+                        <li><a href="/women?prefn1=item_type&prefv1=Super%20Skinny">Super Skinny</a></li>
+                        <li><a href="">Skinny</a></li>
+                        <li><a href="">Slim</a></li>
+                        <li><a href="">Balloon Leg</a></li>
+                        <li><a href="">High Rise</a></li>
 
                     </ul>
                     <ul>
