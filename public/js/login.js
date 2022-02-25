@@ -33,7 +33,10 @@ async function postUser(user, router){
   const response = await result.json()
   
   if(response.status)
-    window.location = '/home'
+  {
+    alert('Please sign up now')
+    window.location = '/login'
+  }
   else
   {
     alert("Email already exists")
@@ -41,10 +44,42 @@ async function postUser(user, router){
   }  
 }
 
-async function singInWithGoogle(){
-    
-  const response1 = await fetch('/oauth/signin')
-  const 
+
+
+
+const si_btn = document.getElementById('si_btn')
+  si_btn.addEventListener('click', signIn)
+
+  async function signIn(){
+  const email = document.getElementById('si_email').value
+  const password = document.getElementById('si_password').value
+
+  const user = {
+    email, 
+    password
+  }
+  const sec_arg = {
+    method : "POST",
+    headers : {
+      "Content-Type" : "application/json"
+    },
+    body : JSON.stringify(user)
+  }
+  const response1 = await fetch('/signin', sec_arg)
+  const response2 = await response1.json()
+
+  if(response2.status)
+  {
+    const { email , token } = response2
+    localStorage.setItem('token', JSON.stringify({ email, token}))
+    alert('You are successfully logged in.')
+    window.location.href = '/home'
+  }
+  else
+  {
+    alert('User not found. Please provide rigth cardentials')
+    return
+  }
 }
 
 
