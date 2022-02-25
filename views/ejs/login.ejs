@@ -40,9 +40,9 @@
           <button onclick="sendOtp()" id="send_otp">SUBMIT</button>
         </div>
       </div>
-      <button id="si_btn" onclick="signIn()">SIGN IN</button>
+      <button id="si_btn">SIGN IN</button>
       <p id="or">OR</p>
-      <button id="google_sign_in" onclick="singInWithGoogle()">SIGN IN WITH GOOGLE</button>
+      <button id="google_sign_in" ">SIGN IN WITH GOOGLE</button>
     </div>
     <div id="signup">
       <p id="login_heading">NEW CUSTOMER</p>
@@ -89,6 +89,15 @@
     const { user: {_id} } = user_and_token
     window.location.href = `/cart/${_id}`
     }
+
+  const google_sign_in = document.getElementById('google_sign_in')
+  google_sign_in.addEventListener('click', singInWithGoogle)
+
+  async function singInWithGoogle(){
+    window.location.href = "/oauth/signin"
+  }
+
+  
 
 </script>
 <script src="/js/login.js"></script>
