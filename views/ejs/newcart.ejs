@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping Cart | Levi's® India</title>
+    <link rel="stylesheet" href="/css/newcart.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footermain.css">
+</head>
+
+<body>
+    <header></header>
+    <div id="cartDiv">
+        <h2>YOUR SHOPPING BAG</h2>
+        <hr><div id="cartHeader">
+            <span>ITEM DESCRIPTION</span>
+            <span>QUANTITY</span>
+            <span>UNIT PRICE</span>
+            <span>TOTAL PRICE</span>
+        </div>
+        <hr>
+        <div id="productDescription">
+            <div id="productDetails">
+                <img src="https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa71c3e96/images/hi-res/A13810001/A13810001_01_Front.jpg?sw=75&sh=100"
+                    alt="">
+                <div id="details">
+                    <span>LEVI'S® 711 SKINNY JEANS</span>
+                    <p>Green</p>
+                    <p>XS</p>
+                    <a href="">EDIT</a>
+                </div>
+            </div>
+            <div id="rem">
+                <select id="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="5">6</option>
+                </select> <br>
+                <a href="">REMOVE</a>
+            </div>
+            <div id="unitPrice">1099.00</div>
+            <div id="totalPrice">1099.00</div>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <input id="promoCode" type="text" placeholder="Enter Promo Code">
+            <button id="apply">APPLY</button>
+        </div>
+        <div id="cartTotal">
+            <span class="subTotal">SUB TOTAL</span>
+            <hr>
+            <span class="total">TOTAL</span> <span class="gst">(INCLUSIVE OF GST)</span>
+        </div>
+        <hr>
+        <div><button id="continueShopping">CONTINUE SHOPPING</button></div>
+        <h3>RECOMMENDED FOR YOU</h3>
+    </div>
+    <footer></footer>
+    <div id="checkout">
+        <button onclick="checkOut()" id="checkoutBtn">CHECKOUT</button>
+    </div>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
+    import profile from "/js/profile.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML = footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+    profile()
+
+
+    const cart_container_anchor = document.getElementById('cart_container_anchor')
+    cart_container_anchor.addEventListener('click', cart)
+
+
+    function cart() {
+        console.log("inside cart function")
+        let token = localStorage.getItem('token')
+        if (!token) {
+            window.location.href = "/login"
+            alert('please sign in')
+            return
+        }
+        window.location.href = `/cart`
+    }
+
+
+</script>
+<script>
+
+
+    // function checkOut() {
+    //     window.location.href = "./shipping.html"
+    // }
+</script>
