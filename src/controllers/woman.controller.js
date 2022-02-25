@@ -21,13 +21,8 @@ router.post( '',async ( req, res )=>{
 
 router.get( '/:subCat/:id',async ( req, res )=>{
     try {
-
-        console.log({ subCat : req.params.subCat})
-        console.log({_id : req.params.id})
         const women = await Woman.findById(req.params.id).lean().exec()
-        // console.log(women)
         let man = women
-        console.log(man)
         return res
         .render("ejs/product.ejs", {man })
     } catch (error) {

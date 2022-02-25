@@ -2,11 +2,9 @@ const { Router } = require('express')
 const router = Router()
 const Cart = require('../models/cart.model')
 
-router.get( '',async ( req, res )=>{
+router.get( '/:id',async ( req, res )=>{
     try {
-        const email = req.query.email
-        const products = await Cart.find({email}).lean().exec()
-        console.log(products)
+        const products = await Cart.find({user_id : req.params.id}).lean().exec()
         return res
         .render("ejs/newcart.ejs", {products})
     } catch (error) {
@@ -20,17 +18,15 @@ router.get( '',async ( req, res )=>{
 })
 router.post( '',async ( req, res )=>{
     try {
-        
-        console.log(req.body)
-        const product = await Cart.findOne({ email : req.body.email, product_id : req.body.product_id}).lean().exec()
+        let product = await Cart.findOne({ email : req.body.email, product_id : req.body.product_id}).lean().exec()
         if(product)
         {
             product.quantity++
-            const product = await Cart.findByIdAndUpdate(product._id,product).lean().exec()
+            product = await Cart.findByIdAndUpdate(product._id,product).lean().exec()
             return res
             .send({ qyt : product.quantity})
         }
-        const man = await Cart.create(req.body)
+        product = await Cart.create(req.body)
         return res
         .send({ qyt : product.quantity})
     } catch (error) {

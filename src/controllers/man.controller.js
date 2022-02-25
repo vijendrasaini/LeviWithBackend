@@ -59,7 +59,6 @@ router.get( '',async ( req, res )=>{
                 filter[prefn[index]] = o1
             })
         }
-        console.log(filter)
         const men = await Man.find(filter).lean().exec()
         const pfvalues = {
             gender1 : "men",

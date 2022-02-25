@@ -43,7 +43,7 @@ const login = async (req, res) => {
 
 
         const token = newToken(user)
-        res.status(201).send({ email : user.email, token , status : 1})
+        res.status(201).send({ id : user._id ,email : user.email, token , status : 1})
     } catch (error) {
         res.status(500).send({register : error.message})
     }
