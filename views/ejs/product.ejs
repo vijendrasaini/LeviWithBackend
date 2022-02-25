@@ -124,9 +124,11 @@
 <script type="module">
   import navbar from "/js/header.js"
   import footermain from "/js/footermain.js"
-
+  import profile from "/js/profile.js"
+  
   document.getElementsByTagName("footer")[0].innerHTML = footermain()
   document.getElementsByTagName('header')[0].innerHTML = navbar()
+  profile()
 
   const cart_container_anchor = document.getElementById('cart_container_anchor')
   cart_container_anchor.addEventListener('click', cart)
@@ -136,15 +138,14 @@
 
   
   function cart() {
-    console.log("inside cart function")
-    let user_and_token = localStorage.getItem('user_and_token')
-    if (!user_and_token) {
-      window.location.href = "/login"
-      alert('Please sign in')
-      return
+        console.log("inside cart function")
+        let token = localStorage.getItem('token')
+        if(!token){
+            window.location.href = "/login"
+            alert('please sign in')
+            return 
+        }
+        window.location.href = `/cart`
     }
 
-    const { user: { _id } } = user_and_token
-    window.location.href = `/cart/${_id}`
-  }
 </script>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,14 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/midSection.css" >
-    <link rel="stylesheet" href="/css/footermain.css" >
+    <link rel="stylesheet" href="/css/midSection.css">
+    <link rel="stylesheet" href="/css/footermain.css">
     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
-    
+
 </head>
+
 <body>
-<header class="complete-header"></header>
+    <header class="complete-header"></header>
 
     <!-- prajwal -->
     <div id="puniversal">
@@ -242,7 +244,8 @@
         </div>
         <div id="pcheck">
             <input class="ppcheck" type="checkbox">
-            <span id="ppch">Yes, send me personalized communications from LS&Co. with exclusive offers, new arrivals, event invites and more, in accordance with our Privacy Policy.</span>
+            <span id="ppch">Yes, send me personalized communications from LS&Co. with exclusive offers, new arrivals,
+                event invites and more, in accordance with our Privacy Policy.</span>
         </div>
         <div id="footer_one">
             <div>
@@ -257,56 +260,35 @@
     </div>
     <footer></footer>
 </body>
+
 </html>
 
 <script type="module">
-    
+
     import navbar from "/js/header.js"
     import footermain from "/js/footermain.js"
-    
-    document.getElementsByTagName("footer")[0].innerHTML=footermain()
+    import profile from "/js/profile.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML = footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
-    
-    
+    profile()
+
+
     const cart_container_anchor = document.getElementById('cart_container_anchor')
     cart_container_anchor.addEventListener('click', cart)
-    
+
+
     function cart() {
         console.log("inside cart function")
         let token = localStorage.getItem('token')
-        if(!token){
+        if (!token) {
             window.location.href = "/login"
             alert('please sign in')
-            return 
+            return
         }
         window.location.href = `/cart`
     }
 
-    profile()
-    function profile(){
-        const token = JSON.parse(localStorage.getItem('tokekn'))
-        
-        if(token)
-        {
-            const logged_in_user = document.getElementById('logged_in_user')
-            const { email } = token
-            console.log(email)
-            logged_in_user.textContent = `Hi ${ email }`
-        }
-    }
-    // function downloadModule(){
-    //     return new Promise((resolve , reject)=>{
-
-    //         import navbar from "/js/header.js"
-    //         if(!navbar)
-    //             reject('not impoted')
-    //         resolve('imported')
-    //     })
-    // }
-
-    // downloadModule().then((res)=>{
-    //     profile()  
-    // }).catch((err)=>console.log(err))
 
 </script>
 <script src="/js/levilanding.js"></script>
