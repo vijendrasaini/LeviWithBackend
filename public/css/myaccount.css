@@ -1,0 +1,168 @@
+
+#myaccount{
+    margin-top: 100px;
+    width: 100%;
+    min-height: 600px;
+}
+#Acc_header{
+    width: 100%;
+    height:50px;
+
+    font-family: 'Interstate-Bold', sans-serif;
+    margin-top:0px;
+}
+#Acc_header > h1{
+    margin-left: 30px;
+    font-size: 28px;
+    margin-top:8px;
+}
+#Acc_detail1{
+
+    width:100%;
+    height: 400px;
+    display: flex;  
+    gap:15px;
+    font-family: 'Interstate-Bold', sans-serif;
+    text-align: center;
+}
+#Acc_detail1 > div:nth-child(1){
+    width:15%;
+}
+#Acc_detail1 > div:nth-child(4){
+    width:15%;
+}
+ #order{
+    border: 1px solid #cccccc;
+    width:35%;
+    margin:auto;
+    height: 95%;
+    
+}
+
+#order > div:nth-child(1){
+    width:90%;
+    height: 100px;
+    margin :auto;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    
+}
+#order>  div:nth-child(2){
+
+    height:185px; 
+   
+}
+
+#order > div:nth-child(3){
+
+    height: 40px;
+    width: 76%;
+    background-color: #333333;
+    margin: auto;
+    border: 1px solid #333333;
+    color:white;
+    
+}
+#order> div:nth-child(3):hover{
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+
+#order > div:nth-child(3) > h4{
+    margin-top: 10px;
+}
+
+
+#address{
+    border: 1px solid #cccccc;
+    width:35%;
+    margin:auto;
+    height: 95%;
+} 
+
+
+#address > div:nth-child(1){
+    width:90%;
+    height: 100px;
+    margin :auto;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    
+}
+#address >  div:nth-child(2){
+
+    height:185px; 
+   
+}
+
+#address > div:nth-child(3){
+
+    height: 40px;
+    width: 76%;
+    background-color: #333333;
+    margin: auto;
+    border: 1px solid #333333;
+    color:white;
+    
+}
+#address> div:nth-child(3):hover{
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+
+#address > div:nth-child(3) > h4{
+    margin-top: 10px;
+}
+#Acc_detail2{
+
+    width:100%;
+    height: 400px;
+    margin-top: 15px;
+    
+}
+
+
+#Acc_detail2 > div{
+    border: 1px solid #cccccc;
+    width:35%;
+    margin:auto;
+    margin-top : 5px;
+    text-align: center;
+    height: 95%;
+    font-family: 'Interstate-Bold', sans-serif;
+    
+}
+#Acc_detail2 > div > div:nth-child(1){
+    width:90%;
+    height: 100px;
+    margin :auto;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    
+}
+#Acc_detail2 > div > div:nth-child(2){
+
+    height: 200px;
+}
+#Acc_detail2 > div > div:nth-child(3){
+
+    height: 40px;
+    width: 76%;
+    background-color: #333333;
+    margin: auto;
+    border: 1px solid #333333;
+    color:white;
+    
+}
+#Acc_detail2 > div > div:nth-child(3):hover{
+    background-color: white;
+    cursor: pointer;
+    color:black;
+}
+
+#Acc_detail2 > div > div:nth-child(3) > h4{
+    margin-top: 12px;
+}
+
