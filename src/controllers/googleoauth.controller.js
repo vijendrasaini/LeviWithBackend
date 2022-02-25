@@ -18,7 +18,7 @@ router.get( '/signin/callback',passport.authenticate( 'google',
             {
                 failureRedirect: '/auth/google/failure'
             }),(req,res)=>{
-                res.render('ejs/index.ejs')
+                res.send(req.user.user)
             }
         )
 module.exports = router        

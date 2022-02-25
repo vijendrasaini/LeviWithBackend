@@ -14,38 +14,43 @@
 </head>
 
 <body>
-  
+
   <header class="complete-header"></header>
   <div id="product_body">
     <p id="pro_path">
-      <%=`${man.gender}/clothing/${man.item_type}`%>
+      <%=`${man.gender} /clothing/${man.item_type}`%>
     </p>
     <div id="primary">
       <div id="image_section">
         <div id="mini_preview">
           <%for(let x of man.image){%>
-          <img <%=`src=${x}`%> alt="" class="mini_image">
-          <%}%>
+            <img <%=`src=${x}`%> alt="" class="mini_image">
+            <%}%>
         </div>
         <div id="preview"><img <%=`src=${man.highresImage[0]}`%> alt="" class=""></div>
       </div>
 
       <div id="product_details">
-        <h1 id="p_name"> <%= man.title%></h1>
-        <p id="p_num"> Item Number: <%=man.item_no%></p>
+        <h1 id="p_name">
+          <%= man.title%>
+        </h1>
+        <p id="p_num"> Item Number: <%=man.item_no%>
+        </p>
         <div id="price_sec">
-            <span id="mrp"><%=man.price.mrp%></span>
-            <span id="price">₹ <%=man.price.price%></span>
-            <span id="disc">( <%=man.price.disc%> % off )</span>
+          <span id="mrp">
+            <%=man.price.mrp%>
+          </span>
+          <span id="price">₹ <%=man.price.price%></span>
+          <span id="disc">( <%=man.price.disc%> % off )</span>
         </div>
         <p>Inclusive of all taxes</p>
         <span>Color</span>
         <div id="colors_row">
-              <% for(let x in man.color){%>
-                <div class="color_block">
-                  <%=x%>
-                </div>
-              <%}%>
+          <% for(let x in man.color){%>
+            <div class="color_block">
+              <%=x%>
+            </div>
+            <%}%>
         </div>
 
         <h4>size</h4>
@@ -54,7 +59,7 @@
             <div class="size_box">
               <%=x%>
             </div>
-          <% } %>
+            <% } %>
         </div>
         <h4>Delivery Eligibility</h4>
         <div class="" id="del_div">
@@ -62,35 +67,41 @@
           <button id="check_pin">CHECK</button>
         </div>
         <div id="buy_div">
-            <div id="qty_text">QTY</div>
-            <div id="qty_sel">
-              <option value="" id="qty_opt">
-                1
-              </option>
-            </div>
-            <button id="add_cart_btn" onclick="cart()">ADD TO CART</button>
-            <button id="buy_now" onclick="wishlist()">BUY NOW</button>
+          <div id="qty_text">QTY</div>
+          <div id="qty_sel">
+            <option value="" id="qty_opt">
+              1
+            </option>
+          </div>
+          <button id="add_cart_btn" >ADD TO CART</button>
+          <button id="buy_now" onclick="wishlist()">BUY NOW</button>
         </div>
       </div>
     </div>
     <div class="pro_info">
       <div id="desc">
-          <h4>DESCRIPTION</h3>
-          <p><%=man.description%></p>
+        <h4>DESCRIPTION</h3>
+          <p>
+            <%=man.description%>
+          </p>
       </div>
       <div id="fit">
         <h4>FIT AND SIZING</h4>
-            <%for( let x of man.fit){%>
-              <li><%=x%> </li>
-            <%}%>
+        <%for( let x of man.fit){%>
+          <li>
+            <%=x%>
+          </li>
+          <%}%>
       </div>
       <div id="material">
         <h4>
           MATERIAL
         </h4>
         <%for( let x of man.material){%>
-          <li><%=x%> </li>
-        <%}%>
+          <li>
+            <%=x%>
+          </li>
+          <%}%>
       </div>
     </div>
     <hr>
@@ -116,4 +127,24 @@
 
   document.getElementsByTagName("footer")[0].innerHTML = footermain()
   document.getElementsByTagName('header')[0].innerHTML = navbar()
+
+  const cart_container_anchor = document.getElementById('cart_container_anchor')
+  cart_container_anchor.addEventListener('click', cart)
+  
+  const add_cart_btn = document.getElementById('add_cart_btn')
+  add_cart_btn.addEventListener('click', cart)
+
+  
+  function cart() {
+    console.log("inside cart function")
+    let user_and_token = localStorage.getItem('user_and_token')
+    if (!user_and_token) {
+      window.location.href = "/login"
+      alert('Please sign in')
+      return
+    }
+
+    const { user: { _id } } = user_and_token
+    window.location.href = `/cart/${_id}`
+  }
 </script>

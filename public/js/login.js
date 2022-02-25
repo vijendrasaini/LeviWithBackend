@@ -41,8 +41,10 @@ async function postUser(user, router){
   }  
 }
 
-function singInWithGoogle(){
-    window.location.href = "/oauth/signin"
+async function singInWithGoogle(){
+    
+  const response1 = await fetch('/oauth/signin')
+  const 
 }
 
 
