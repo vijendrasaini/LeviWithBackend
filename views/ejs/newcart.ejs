@@ -43,7 +43,7 @@
                 <a href="">REMOVE</a>
             </div>
             <div id="unitPrice"><%=x.price%></div>
-            <div id="totalPrice"><%=(x.title * x.qty).toFixed(2)%></div>
+            <div id="totalPrice"><%=((+x.price) * (+x.qty)).toFixed(2)%></div>
         </div>
         <br>
         <%}%>
@@ -56,7 +56,9 @@
         <div id="cartTotal">
             <span class="subTotal">SUB TOTAL</span>
             <hr>
-            <span class="total">TOTAL</span> <span class="gst">(INCLUSIVE OF GST)</span>
+            <span class="total">
+                <%= products.reduce((ac,el)=>ac+((+el.price) * (+el.qty)),0).toFixed(2)%>
+            </span> <span class="gst">(INCLUSIVE OF GST)</span>
         </div>
         <hr>
         <div><button id="continueShopping">CONTINUE SHOPPING</button></div>
