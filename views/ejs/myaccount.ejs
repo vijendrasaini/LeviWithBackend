@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="/css/myaccount.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footermain.css">
+
+</head>
+<body>
+    <header class="complete-header"></header>
+    <div id="myaccount">
+        <div id="Acc_header">
+            <h1>MY ACCOUNT</h1>
+        </div>
+        <div id="Acc_detail1">
+            <div></div>
+            <div id="order">
+                <div>
+                    <span>
+                        <img
+                            src="https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw825e14f3/images/homepage/14_My-account---Order_75x50.png" />
+                    </span>
+                    <h3>ORDERS</h3>
+                </div>
+                <div>
+                    <p>Last Order</p>
+                    <br>
+                    <span>Order Number: </span> <span>No</span><br><br>
+                    <span>Mobile Status: </span> <span>No</span>
+                </div>
+                <div>
+                    <h4>VIEW ALL ORDERS</h4>
+                </div>
+
+            </div>
+
+            <div id="address">
+                <div>
+                    <span>
+                        <img
+                            src="https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw25a0297d/images/homepage/18_%20Adress_75X50.png" />
+                    </span>
+                    <h3>ADDRESSES</h3>
+                </div>
+                <div>
+                    <p>Default Address</p>
+
+                </div>
+                <div>
+                    <h4>MANAGE ADDRESSES</h4>
+                </div>
+
+            </div>
+            <div></div>
+        </div>
+        <div id="Acc_detail2">
+            <div>
+                <div>
+                    <span>
+                        <img
+                            src="https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw1c339296/images/homepage/20_Profile_75x50.png" />
+                    </span>
+                    <h3>PROFILE</h3>
+                </div>
+                <div>
+                    <br><br>
+                    <span>Email: </span> 
+                    <span id="email"><%=email%></span>
+                    <br><br>
+                    <span>Mobile Number: </span> 
+                    <span id="mobile"></span>
+                </div>
+                <div>
+                    <h4>EDIT PROFILE</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
+<script type="module">
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
+    import profile from "/components/profile.js"
+    import cart from "/components/cart.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML = footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+    document.getElementById('cart_container_anchor').addEventListener('click', cart)
+    profile()
+
+    const data = JSON.parse(localStorage.getItem('token'))
+    if(data){
+        const { id , email, token, mobile } = token
+        document.getElementById('email').textContent = email
+        document.getElementById('mobile').textContent = mobile
+    }
+</script>
