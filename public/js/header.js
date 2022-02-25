@@ -6,7 +6,7 @@ const navbar = ()=>{
             <li><a href="/help">HELP</a></li>
             <li><a href="">TRACK ORDER</a></li>
             <li><a href="/storelocator">STORE LOCATOR</a></li>
-            <li><a href="/login">SIGN IN</a></li>
+            <li><a href="/login" id="logged_in_user">SIGN IN</a></li>
             <li><img src="https://media.istockphoto.com/vectors/flag-of-india-vector-id472317739?b=1&k=20&m=472317739&s=170667a&w=0&h=Ju9wPp7N7fM00TiZtVuVr_wc6elG1L-b32DMlY7JHc4=" alt=""></li>
         </ul>
     </div>
@@ -152,18 +152,4 @@ const navbar = ()=>{
     `
 }
 
-
-// const cart = () => {
-//     console.log("inside cart function")
-//     let user_and_token = localStorage.getItem('user_and_token')
-//     if(!user_and_token){
-//         window.location.href = "/login"
-//         alert('please sign in')
-//         return 
-//     }
-
-//     const { user: {_id} } = user_and_token
-//     window.location.href = `/cart/${_id}`
-//     }
-// module.exports = { navbar, cart}    
 export default navbar
