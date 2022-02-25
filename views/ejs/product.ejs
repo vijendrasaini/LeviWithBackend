@@ -28,7 +28,7 @@
             <img <%=`src=${x}`%> alt="" class="mini_image">
             <%}%>
         </div>
-        <div id="preview"><img <%=`src=${man.highresImage[0]}`%> alt="" class=""></div>
+        <div id="preview"><img <%=`src=${man.highresImage[0]}`%> alt="" id="prod_highres_image"></div>
       </div>
 
       <div id="product_details">
@@ -147,6 +147,7 @@
   
       const send_body = {
         email,
+        image : document.getElementById('prod_highres_image').src,
         product_id : document.getElementById('id_container').value,
         title : document.getElementById('p_name').textContent,
         price : document.getElementById('pro_price_x').textContent
@@ -164,7 +165,6 @@
       const response2 = await response1.json()
       console.log(response2)
       alert('Product is added in your cart.')
-      
     }
 
 </script>

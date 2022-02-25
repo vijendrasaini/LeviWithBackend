@@ -5,9 +5,10 @@ const Cart = require('../models/cart.model')
 router.get( '',async ( req, res )=>{
     try {
         const email = req.query.email
-        const products = Cart.find({email}).lean().exec()
+        const products = await Cart.find({email}).lean().exec()
+        console.log(products)
         return res
-        .render("ejs/newcart.ejs")//, {products})
+        .render("ejs/newcart.ejs", {products})
     } catch (error) {
         return res
         .status(500)

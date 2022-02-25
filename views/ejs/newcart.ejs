@@ -18,15 +18,16 @@
             <span>UNIT PRICE</span>
             <span>TOTAL PRICE</span>
         </div>
+        <%for(let x of products){%>
+        
         <hr>
         <div id="productDescription">
             <div id="productDetails">
-                <img src="https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dwa71c3e96/images/hi-res/A13810001/A13810001_01_Front.jpg?sw=75&sh=100"
-                    alt="">
+                <img <%=`src=${x.image}`%> alt="">
                 <div id="details">
-                    <span>LEVI'S® 711 SKINNY JEANS</span>
-                    <p>Green</p>
-                    <p>XS</p>
+                    <span><%=x.title%></span>
+                    <p><%=x.color%></p>
+                    <p><%=x.size%></p>
                     <a href="">EDIT</a>
                 </div>
             </div>
@@ -41,10 +42,12 @@
                 </select> <br>
                 <a href="">REMOVE</a>
             </div>
-            <div id="unitPrice">1099.00</div>
-            <div id="totalPrice">1099.00</div>
+            <div id="unitPrice"><%=x.price%></div>
+            <div id="totalPrice"><%=(x.title * x.qty).toFixed(2)%></div>
         </div>
         <br>
+        <%}%>
+
         <hr>
         <div>
             <input id="promoCode" type="text" placeholder="Enter Promo Code">
