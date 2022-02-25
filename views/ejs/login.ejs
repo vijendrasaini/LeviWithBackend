@@ -68,28 +68,15 @@
 
 </html>
 <script type="module">
-  import navbar from "/js/header.js"
-  import footermain from "/js/footermain.js"
-  import profile from "/js/profile.js"
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
+    import profile from "/components/profile.js"
+    import cart from "/components/cart.js"
 
-  document.getElementsByTagName("footer")[0].innerHTML = footermain()
-  document.getElementsByTagName('header')[0].innerHTML = navbar()
-  profile()
-
-  const cart_container_anchor = document.getElementById('cart_container_anchor')
-    cart_container_anchor.addEventListener('click', cart)
-
-  function cart() {
-      console.log("inside cart function")
-      let token = localStorage.getItem('token')
-      if(!token){
-          window.location.href = "/login"
-          alert('please sign in')
-          return 
-      }
-      window.location.href = `/cart`
-  }
-
+    document.getElementsByTagName("footer")[0].innerHTML = footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+    document.getElementById('cart_container_anchor').addEventListener('click', cart)
+    profile()
 
   const google_sign_in = document.getElementById('google_sign_in')
   google_sign_in.addEventListener('click', singInWithGoogle)
