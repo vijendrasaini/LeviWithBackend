@@ -70,8 +70,8 @@ const si_btn = document.getElementById('si_btn')
 
   if(response2.status)
   {
-    const { email , token } = response2
-    localStorage.setItem('token', JSON.stringify({ email, token}))
+    const { email , token , id} = response2
+    localStorage.setItem('token', JSON.stringify({ email, token, id}))
     alert('You are successfully logged in.')
     window.location.href = '/home'
   }
