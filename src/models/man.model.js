@@ -1,28 +1,25 @@
 const mongoose = require("mongoose")
 const menSchema = new mongoose.Schema(
     {
-        title : { type : String, required : true },
-        item_no : { type : String, required : true },
-        gender : { type : String, required : true },
-        item_type : { type : String, required : true },
-        category : { type : String, required : true },
-        color : [{ type : String}],
-        price : { type : mongoose.Schema.Types.Mixed, required : true },
-        size : { type : mongoose.Schema.Types.Mixed, required : true },
-        highresImage : [{ type : String}],
-        image : [{ type : String}],
-        description : { type : String, required : true },
-        fit : [{type : String}],
-        material : [{ type : String}]
-    }, 
+        title: { type: String, required: true },
+        item_no: { type: String, required: true },
+        gender: { type: String, required: true },
+        item_type: { type: String, required: true },
+        category: { type: String, required: true },
+        color: [{ type: String }],
+        price: { type: mongoose.Schema.Types.Mixed, required: true },
+        size: { type: mongoose.Schema.Types.Mixed, required: true },
+        highresImage: [{ type: String }],
+        image: [{ type: String }],
+        description: { type: String, required: true },
+        fit: [{ type: String }],
+        material: [{ type: String }]
+    },
     {
         versionKey: false
     }
 )
-
-
-
-module.exports = mongoose.model('man', menSchema)
+module.exports = mongoose.model('men', menSchema)
 // let x = new Schema
 // "title": "LEVI'S® TRUCKER JACKET",
 //         "item_no": "289430022",

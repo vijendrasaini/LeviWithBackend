@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Levi's® Checkout</title>
+    <link rel="stylesheet" href="/public/css/newpayment.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="black_header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header></header>
+    <div id="paymentPage">
+        <!---------------------payment start--------------------->
+        <div id="payment">
+            <span>PAYMENT</span>
+        </div>
+        <!---------------------payment end--------------------->
+        <hr>
+        <div id="paymentMethod">
+            <h4>PAYMENT METHOD</h4>
+            <p>Please sign in to pay through COD. COD is applicable for orders upto Rs. 2,000 only.</p>
+            <p>Please note that all sales of Levi's® Masks are final sales and they cannot be returned.</p>
+            <p>CONTAINMENT ZONES ARE NOT SERVICEABLE: As per government guidelines, we are not able to service areas
+                which are containment
+                zones. Orders from such areas will be on hold until they are serviceable.</p>
+        </div>
+        <div id="payMethod">
+
+            <input class="pay" type="radio" name="paymentOptions" value="Debit Card/Credit Card/Net Banking">
+            <span>Debit Card/Credit Card/Net Banking</span>
+            <br>
+
+            <input class="pay" type="radio" name="paymentOptions" value="UPI">
+            <span>UPI</span>
+            <br>
+
+            <input class="pay" type="radio" name="paymentOptions" value="Paytm">
+            <span>Paytm</span>
+            <br>
+
+            <input class="pay" type="radio" name="paymentOptions" value="PhonePe Mobile Wallet">
+            <span>PhonePe Mobile Wallet</span>
+
+        </div>
+    </div>
+    <footer></footer>
+    <div id="placeOrder">
+        <button onclick="PlaceOrder()" id="placeOrderBtn">PLACE ORDER</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function PlaceOrder() {
+        window.location.href = "./paymentMethods.html"
+    }
+</script>
