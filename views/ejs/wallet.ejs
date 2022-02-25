@@ -21,32 +21,11 @@
 
         </div>
         <div id="rightDiv">
-            <span>PAYMENT OPTIONS</span>
+            <span>WALLETS</span>
             <p></p>
             <div class="payMethods">
-                <img src="https://api.payu.in/public/assets/images/card-icon.svg" alt="card">
-                <div onclick="cards()">Cards (Credit/Debit) </div>
-                <img class="rightDropdown" src="https://api.payu.in/public/assets/images/accordian-arrw.svg"
-                    alt="dropdownKey">
-            </div>
-
-            <div class="payMethods">
-                <img src="https://api.payu.in/public/assets/images/net-banking-icon.svg" alt="netBanking">
-                <div onclick="netBanking()">Net Banking</div>
-                <img class="rightDropdown" src="https://api.payu.in/public/assets/images/accordian-arrw.svg"
-                    alt="dropdownKey">
-            </div>
-
-            <div class="payMethods">
-                <img src="https://api.payu.in/public/assets/images/upi-icon.svg" alt="upi">
-                <div onclick="upi()">UPI</div>
-                <img class="rightDropdown" src="https://api.payu.in/public/assets/images/accordian-arrw.svg"
-                    alt="dropdownKey">
-            </div>
-
-            <div class="payMethods">
                 <img src="https://api.payu.in/public/assets/images/wallet-icon.svg" alt="wallet">
-                <div onclick="wallet()">Wallet</div>
+                <div onclick="phonePe()">phonePe/BHIM UPI</div>
                 <img class="rightDropdown" src="https://api.payu.in/public/assets/images/accordian-arrw.svg"
                     alt="dropdownKey">
             </div>
@@ -58,35 +37,8 @@
                     alt="dropdownKey">
             </div>
 
-            <div class="payMethods">
-                <img src="https://api.payu.in/public/assets/images/gpay.svg" alt="gpay">
-                <div onclick="gpay()">Google Pay</div>
-                <img class="rightDropdown" src="https://api.payu.in/public/assets/images/accordian-arrw.svg"
-                    alt="dropdownKey">
-            </div>
-
         </div>
     </div>
 </body>
 
 </html>
-<script>
-    const cards = ()=>{
-        window.location.href="/cardDetails"
-    }
-    const netBanking = ()=>{
-        window.location.href="/netBanking"
-    }
-    const upi = ()=>{
-        window.location.href="/upi"
-    }
-    const wallet = ()=>{
-        window.location.href="/wallet"
-    }
-    const hdfcBank = ()=>{
-        window.location.href="/hdfcBank"
-    }
-    const gpay = ()=>{
-        window.location.href="/gpay"
-    }
-</script>

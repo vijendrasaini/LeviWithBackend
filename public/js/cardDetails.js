@@ -1,9 +1,12 @@
-document.querySelector("#submit").addEventListener("submit", function (event) {
+document.getElementById("form").addEventListener("submit", Insert)
+    
+function Insert(event) {
     event.preventDefault();
     
     var name = document.querySelector("#name").value;
     var card = document.querySelector("#card").value;
     var cvv = document.querySelector("#cvv").value;
+    var expiry = document.querySelector("#expiry").value;
     
     if (name.length == 0 || card.length == 0 || cvv.length == 0) {
         alert("Please Enter Required Fields....!");
@@ -26,13 +29,8 @@ document.querySelector("#submit").addEventListener("submit", function (event) {
             }
         }
     }
-});
+}
 function random() {
     var otp = Math.round(1000 + Math.random() * 8999);
     return otp;
 }
-
-
-
-
-
