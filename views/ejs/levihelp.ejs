@@ -599,10 +599,12 @@
 </html>
 <script src="/js/levihelp.js"></script>
 <script type="module">
-    import navbar from "/js/header.js"
+    import { navbar, cart } from "/js/header.js"
     import footermain from "/js/footermain.js"
-
+    
     document.getElementsByTagName("footer")[0].innerHTML=footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
-
+    
+    const cart_container_anchor = document.getElementById('cart_container_anchor')
+    cart_container_anchor.addEventListener('click', cart)
 </script>

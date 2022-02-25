@@ -108,6 +108,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+#cart_container_anchor{
+    cursor: pointer;
+}
+
 .logo-image+div{
     margin-top: 10px;
 }

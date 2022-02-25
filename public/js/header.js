@@ -146,10 +146,24 @@ const navbar = ()=>{
         </div>
     </div>
     <div class="cart-icon-in-header">
-    <a href="./cart.html"><span id='cartIcon'><i class="fas fa-shopping-cart"></i></span></a> 
+    <a id="cart_container_anchor"><span id='cartIcon'><i class="fas fa-shopping-cart"></i></span></a> 
     </div>
     </div>
     `
 }
 
-    export default navbar
+
+// const cart = () => {
+//     console.log("inside cart function")
+//     let user_and_token = localStorage.getItem('user_and_token')
+//     if(!user_and_token){
+//         window.location.href = "/login"
+//         alert('please sign in')
+//         return 
+//     }
+
+//     const { user: {_id} } = user_and_token
+//     window.location.href = `/cart/${_id}`
+//     }
+// module.exports = { navbar, cart}    
+export default navbar

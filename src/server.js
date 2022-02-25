@@ -13,6 +13,7 @@ const googleoauthController = require('./controllers/googleoauth.controller')
 const { register, login } = require('./controllers/authentication.controller')
 const manController = require("./controllers/man.controller")
 const womanController = require("./controllers/woman.controller")
+const cartController = require('./controllers/cart.controller')
 
 
 const app = express()
@@ -33,6 +34,7 @@ app.post('/signin',login)
 app.use('/oauth', googleoauthController)
 app.use('/men', manController)
 app.use('/women', womanController)
+app.use('/cart',cartController)
 
 
 

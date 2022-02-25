@@ -1,258 +1,256 @@
-let url = "http://127.0.0.1:7000/api/showfullDetails";
-
-let obj;
-fetchData();
-
-async function fetchData() {
-  try {
-    let data = await fetch(url);
-    let response = await data.json();
-    obj = response;
-    singleProd(obj[0])
-  } catch (error) {
-    console.log("error is:", error);
+function cart(){
+  user_and_token = localStorage.getItem('user_and_token')
+  if(!user_and_token){
+    window.localStorage.href = "/login"
+    alert('please sign in')
+    return 
   }
+
+  const { user: {_id} } = user_and_token
+  window.location.href = `/cart/${_id}`
 }
 
-function singleProd(single) {
-  // let pro_path = document.getElementById("pro_path");
 
-  // pro_path.textContent =
-  //   single.gender + "/ " + single.category + "/ " + single.type;
 
-  // let preview = document.getElementById("preview");
-  // let preview_img = document.createElement("img");
+// function singleProd(single) {
+//   // let pro_path = document.getElementById("pro_path");
 
-  // let high_res = single.highresImage;
-  // preview_img.src = high_res[0];
+//   // pro_path.textContent =
+//   //   single.gender + "/ " + single.category + "/ " + single.type;
 
-  // preview.append(preview_img);
-  let primary = document.getElementById("primary");
-  let image_section = document.getElementById("image_section");
-  let mini_preview = document.getElementById("mini_preview");
+//   // let preview = document.getElementById("preview");
+//   // let preview_img = document.createElement("img");
 
-  for (let i = 0; i < single.image.length; i++) {
-    // let mini_image = document.createElement("img");
-    // mini_image.src = single.image[i];
-    // mini_image.setAttribute("id", "mini_image");
-    mini_image.addEventListener("mouseover", changePreview);
-    function changePreview() {
-      preview_img.src = high_res[i];
-    }
-    mini_preview.append(mini_image);
-  }
+//   // let high_res = single.highresImage;
+//   // preview_img.src = high_res[0];
 
-  let prod_details = document.getElementById("product_details");
+//   // preview.append(preview_img);
+//   let primary = document.getElementById("primary");
+//   let image_section = document.getElementById("image_section");
+//   let mini_preview = document.getElementById("mini_preview");
 
-  // let pname = document.createElement("h1");
-  // pname.innerHTML = single.title;
-  // pname.setAttribute("id", "p_name");
+//   for (let i = 0; i < single.image.length; i++) {
+//     // let mini_image = document.createElement("img");
+//     // mini_image.src = single.image[i];
+//     // mini_image.setAttribute("id", "mini_image");
+//     mini_image.addEventListener("mouseover", changePreview);
+//     function changePreview() {
+//       preview_img.src = high_res[i];
+//     }
+//     mini_preview.append(mini_image);
+//   }
 
-  // let pnum = document.createElement("p");
-  // pnum.setAttribute("id", "p_num");
-  // pnum.textContent = "Item Number:" + single.item_no.toString();
+//   let prod_details = document.getElementById("product_details");
 
-  // let price_sec = document.createElement("div");
-  // price_sec.setAttribute("id", "price_sec");
+//   // let pname = document.createElement("h1");
+//   // pname.innerHTML = single.title;
+//   // pname.setAttribute("id", "p_name");
 
-  // let mrp = document.createElement("span");
-  // mrp.setAttribute("id", "mrp");
-  // mrp.innerHTML = " ₹" + single.price.mrp;
-  mrp.style.textDecoration = "line-through";
+//   // let pnum = document.createElement("p");
+//   // pnum.setAttribute("id", "p_num");
+//   // pnum.textContent = "Item Number:" + single.item_no.toString();
 
-  // let price = document.createElement("span");
-  // price.setAttribute("id", "price");
-  // price.innerHTML = " ₹" + single.price.price;
+//   // let price_sec = document.createElement("div");
+//   // price_sec.setAttribute("id", "price_sec");
 
-  // let disc = document.createElement("span");
-  // disc.setAttribute("id", "disc");
-  // disc.innerHTML = "(" + single.price.disc + "% off)";
+//   // let mrp = document.createElement("span");
+//   // mrp.setAttribute("id", "mrp");
+//   // mrp.innerHTML = " ₹" + single.price.mrp;
+//   mrp.style.textDecoration = "line-through";
 
-  // let inc_taxes = document.createElement("p");
-  // inc_taxes.innerHTML = "Inclusive of all taxes";
+//   // let price = document.createElement("span");
+//   // price.setAttribute("id", "price");
+//   // price.innerHTML = " ₹" + single.price.price;
 
-  // let color_text = document.createElement("span");
-  // color_text.textContent = "Color";
+//   // let disc = document.createElement("span");
+//   // disc.setAttribute("id", "disc");
+//   // disc.innerHTML = "(" + single.price.disc + "% off)";
 
-  let sel_color = document.createElement("span")
-  sel_color = "     " + single.color[0]
+//   // let inc_taxes = document.createElement("p");
+//   // inc_taxes.innerHTML = "Inclusive of all taxes";
 
-  let color_array = single.color;
+//   // let color_text = document.createElement("span");
+//   // color_text.textContent = "Color";
 
-  let colors = document.createElement("div")
-  colors.setAttribute("id", "colors_row")
+//   let sel_color = document.createElement("span")
+//   sel_color = "     " + single.color[0]
 
-  for (let j = 0; j < color_array.length; j++) {
-    let color_block = document.createElement("div")
-    color_block.setAttribute("class", "color_block")
-    color_block.style.backgroundColor = color_array[j]
-    colors.append(color_block)
-  }
+//   let color_array = single.color;
 
-  // let size_text = document.createElement("h4");
-  // size_text.innerText = "Size";
+//   let colors = document.createElement("div")
+//   colors.setAttribute("id", "colors_row")
 
-  let sizes = single.size;
+//   for (let j = 0; j < color_array.length; j++) {
+//     let color_block = document.createElement("div")
+//     color_block.setAttribute("class", "color_block")
+//     color_block.style.backgroundColor = color_array[j]
+//     colors.append(color_block)
+//   }
 
-  let size_row = document.createElement("div");
-  size_row.setAttribute("id", "size_row");
-  for (var x in sizes) {
-    let size_box = document.createElement("div");
-    size_box.setAttribute("id", "size_box");
-    // size_box.onclick = selectSize(size_box);
-    size_box.textContent = x;
-    size_row.append(size_box);
-  }
-  //<------------SIZE SELECT function----------->
+//   // let size_text = document.createElement("h4");
+//   // size_text.innerText = "Size";
 
-  function selectSize(size_box) {
-    size_box.style.backgroundColor = "#333333";
-    size_box.style.color = "#ffffff";
-  }
+//   let sizes = single.size;
 
-  // let del_text = document.createElement("h4");
-  // del_text.innerText = "Delivery Eligibility";
+//   let size_row = document.createElement("div");
+//   size_row.setAttribute("id", "size_row");
+//   for (var x in sizes) {
+//     let size_box = document.createElement("div");
+//     size_box.setAttribute("id", "size_box");
+//     // size_box.onclick = selectSize(size_box);
+//     size_box.textContent = x;
+//     size_row.append(size_box);
+//   }
+//   //<------------SIZE SELECT function----------->
 
-  // let del_div = document.createElement("div");
-  // del_div.setAttribute("id", "del_div");
+//   function selectSize(size_box) {
+//     size_box.style.backgroundColor = "#333333";
+//     size_box.style.color = "#ffffff";
+//   }
 
-  // let enter_pin = document.createElement("input");
-  // enter_pin.setAttribute("placeholder", "Enter Pincode");
+//   // let del_text = document.createElement("h4");
+//   // del_text.innerText = "Delivery Eligibility";
 
-  // let check_btn = document.createElement("button");
-  // check_btn.setAttribute("id", "check_pin");
-  // check_btn.textContent = "CHECK";
-  // check_btn.onclick = validatePin;
+//   // let del_div = document.createElement("div");
+//   // del_div.setAttribute("id", "del_div");
 
-  // function validatePin() {
-  //   let pin = +enter_pin.value;
-  //   if (pin < 100000 || pin > 999999) {
-  //     alert("enter valid pin");
-  //   }
-  // }
+//   // let enter_pin = document.createElement("input");
+//   // enter_pin.setAttribute("placeholder", "Enter Pincode");
 
-  // del_div.append(enter_pin, check_btn);
+//   // let check_btn = document.createElement("button");
+//   // check_btn.setAttribute("id", "check_pin");
+//   // check_btn.textContent = "CHECK";
+//   // check_btn.onclick = validatePin;
 
-  // let buy_div = document.createElement("div");
-  // buy_div.setAttribute("id", "buy_div");
+//   // function validatePin() {
+//   //   let pin = +enter_pin.value;
+//   //   if (pin < 100000 || pin > 999999) {
+//   //     alert("enter valid pin");
+//   //   }
+//   // }
 
-  // let qty_text = document.createElement("div");
-  // qty_text.setAttribute("id", "qty_text");
-  // qty_text.textContent = "QTY";
+//   // del_div.append(enter_pin, check_btn);
 
-  // let qty_sel = document.createElement("select");
-  // qty_sel.setAttribute("id", "qty_sel");
-  // let option1 = document.createElement("option");
-  // option1.setAttribute("id", "qty_opt");
-  // option1.innerText = "1";
+//   // let buy_div = document.createElement("div");
+//   // buy_div.setAttribute("id", "buy_div");
 
-  // qty_sel.append(option1);
+//   // let qty_text = document.createElement("div");
+//   // qty_text.setAttribute("id", "qty_text");
+//   // qty_text.textContent = "QTY";
 
-  // let add_cart_btn = document.createElement("button");
-  // add_cart_btn.setAttribute("id", "add_cart_btn");
-  // add_cart_btn.innerText = "ADD TO CART";
-  // add_cart_btn.onclick = addCart;
-  function addCart() {
+//   // let qty_sel = document.createElement("select");
+//   // qty_sel.setAttribute("id", "qty_sel");
+//   // let option1 = document.createElement("option");
+//   // option1.setAttribute("id", "qty_opt");
+//   // option1.innerText = "1";
+
+//   // qty_sel.append(option1);
+
+//   // let add_cart_btn = document.createElement("button");
+//   // add_cart_btn.setAttribute("id", "add_cart_btn");
+//   // add_cart_btn.innerText = "ADD TO CART";
+//   // add_cart_btn.onclick = addCart;
+//   function addCart() {
     
-    var cart = JSON.parse(localStorage.getItem("cart")) || [];
+//     var cart = JSON.parse(localStorage.getItem("cart")) || [];
     
-        for(var i=0;i<cart.length;i++){
-          if(cart[i].item_no == single.item_no){
-            break;
-          }
-        }
+//         for(var i=0;i<cart.length;i++){
+//           if(cart[i].item_no == single.item_no){
+//             break;
+//           }
+//         }
     
-        if(i!=cart.length){
-          alert("product is already added to the cart");
-        }else{
-          alert("Item is added successfully");
-          cart.push(single)
-          localStorage.setItem("cart", JSON.stringify(cart));
-        }   
+//         if(i!=cart.length){
+//           alert("product is already added to the cart");
+//         }else{
+//           alert("Item is added successfully");
+//           cart.push(single)
+//           localStorage.setItem("cart", JSON.stringify(cart));
+//         }   
      
-      }
-  //<-----------ADD TO CART function-------->
+//       }
+//   //<-----------ADD TO CART function-------->
 
-  // let buy_now = document.createElement("button");
-  // buy_now.setAttribute("id", "buy_now");
-  // buy_now.innerText = "BUY NOW";
-  // buy_now.onclick = buyNow;
+//   // let buy_now = document.createElement("button");
+//   // buy_now.setAttribute("id", "buy_now");
+//   // buy_now.innerText = "BUY NOW";
+//   // buy_now.onclick = buyNow;
 
-  const cartIcon = document.getElementById('cartIcon')
-  console.log(cartIcon)
+//   const cartIcon = document.getElementById('cartIcon')
+//   console.log(cartIcon)
 
-  async function buyNow() {
-    try {
-      const url = "http://127.0.0.1:7000/api/allusers/2";
-      const response = await fetch(url);
-      const result = await response.json();
+//   async function buyNow() {
+//     try {
+//       const url = "http://127.0.0.1:7000/api/allusers/2";
+//       const response = await fetch(url);
+//       const result = await response.json();
 
-      // const cart = JSON.parse(localStorage.getItem('cart'))
-      let currentUser = result.currentuser;
-      currentUser.cart.push(single);
-      console.log(currentUser);
-      const r = {
-        id: 2,
-        currentuser: currentUser,
-      };
-      console.log("here");
-      const arg = {
-        method: "PUT",
-        body: JSON.stringify(r),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      };
-      const res = await fetch(url, arg);
-      const re = await res.json();
-      console.log(re);
-      window.location.href = "./cart.html"
-    } catch (error) {
-      console.log(error);
-    }
-  }
-  // buy_now.onclick = buyNow;
+//       // const cart = JSON.parse(localStorage.getItem('cart'))
+//       let currentUser = result.currentuser;
+//       currentUser.cart.push(single);
+//       console.log(currentUser);
+//       const r = {
+//         id: 2,
+//         currentuser: currentUser,
+//       };
+//       console.log("here");
+//       const arg = {
+//         method: "PUT",
+//         body: JSON.stringify(r),
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//       };
+//       const res = await fetch(url, arg);
+//       const re = await res.json();
+//       console.log(re);
+//       window.location.href = "./cart.html"
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   }
+//   // buy_now.onclick = buyNow;
 
-  //<-----------BUY NOW function------------>
+//   //<-----------BUY NOW function------------>
 
-  // buy_div.append(qty_text, qty_sel, add_cart_btn, buy_now);
-  // price_sec.append(mrp, price, disc);
-  prod_details.append(
-    // pname,
-    // pnum,
-    // price_sec,
-    inc_taxes,
-    color_text,
-    sel_color,
-    colors,
-    size_text,
-    size_row,
-    del_text,
-    del_div,
-    buy_div
-  );
+//   // buy_div.append(qty_text, qty_sel, add_cart_btn, buy_now);
+//   // price_sec.append(mrp, price, disc);
+//   prod_details.append(
+//     // pname,
+//     // pnum,
+//     // price_sec,
+//     inc_taxes,
+//     color_text,
+//     sel_color,
+//     colors,
+//     size_text,
+//     size_row,
+//     del_text,
+//     del_div,
+//     buy_div
+//   );
 
-  // let pro_info = document.getElementsByClassName("pro_info");
+//   // let pro_info = document.getElementsByClassName("pro_info");
 
-  // let pro_desc = document.getElementById("desc");
-  // let desc = document.createElement("p");
-  // desc.textContent = single.description;
-  // pro_desc.append(desc);
+//   // let pro_desc = document.getElementById("desc");
+//   // let desc = document.createElement("p");
+//   // desc.textContent = single.description;
+//   // pro_desc.append(desc);
 
-  // let fit_sec = document.getElementById("fit");
-  // let fit = single.fit;
-  // for (let k = 0; k < fit.length; k++) {
-    // let bullet = document.createElement("li");
-    // bullet.textContent = fit[k];
-    // fit_sec.append(bullet);
-  // }
+//   // let fit_sec = document.getElementById("fit");
+//   // let fit = single.fit;
+//   // for (let k = 0; k < fit.length; k++) {
+//     // let bullet = document.createElement("li");
+//     // bullet.textContent = fit[k];
+//     // fit_sec.append(bullet);
+//   // }
 
-  // let materials = document.getElementById("material");
-  // let mat = single.material;
-  // for (let k = 0; k < mat.length; k++) {
-    // let mat1 = document.createElement("li");
-    // mat1.textContent = mat[k];
-    // materials.append(mat1);
-  // }
-}
+//   // let materials = document.getElementById("material");
+//   // let mat = single.material;
+//   // for (let k = 0; k < mat.length; k++) {
+//     // let mat1 = document.createElement("li");
+//     // mat1.textContent = mat[k];
+//     // materials.append(mat1);
+//   // }
+// }
 

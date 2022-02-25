@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Levi's® for Men - Shop Clothing, Accessories & Footwear | Levi's® India</title>
     <script src="https://kit.fontawesome.com/599713bf7d.js" crossorigin="anonymous"></script>
@@ -19,7 +20,9 @@
         <div id="pro_sort">
             <div>
                 <h2>
-                    Total Style : <span id="totalProductsIn"><%= men.length %></span>
+                    Total Style : <span id="totalProductsIn">
+                        <%= men.length %>
+                    </span>
                 </h2>
             </div>
             <div id="selectCon">
@@ -41,10 +44,16 @@
                     <span class="openAndClose"><i class="fas fa-plus-circle"></i></span>
                 </div>
                 <div class="openAndCloseDiv" id="openAndCloseDiv0">
-                    <input id="api" type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender1}`%> onclick="onclickFunc()">
-                    <label for=""><%=`${pfvalues.gender1}`%></label> <br>
-                    <input type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender2}`%> onclick="onclickFunc()">
-                    <label for=""><%=`${pfvalues.gender2}`%></label>
+                    <input id="api" type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender1}`%>
+                    onclick="onclickFunc()">
+                    <label for="">
+                        <%=`${pfvalues.gender1}`%>
+                    </label> <br>
+                    <input type="checkbox" class="gender_checkboxes" value=<%=`${pfvalues.gender2}`%>
+                    onclick="onclickFunc()">
+                    <label for="">
+                        <%=`${pfvalues.gender2}`%>
+                    </label>
                 </div>
             </div>
             <hr>
@@ -54,12 +63,21 @@
                     <span class="openAndClose"><i class="fas fa-plus-circle"></i></span>
                 </div>
                 <div class="openAndCloseDiv" id="openAndCloseDiv1">
-                    <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type1}`%> onclick="onclickFunc()">
-                    <label for=""><%=`${pfvalues.item_type1}`%></label> <br>
-                    <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type2}`%> onclick="onclickFunc()">
-                    <label for=""><%=`${pfvalues.item_type2}`%></label> <br>
-                    <input type="checkbox" class="item_type_checkboxes" value=<%=encodeURI(`${pfvalues.item_type3}`)%> onclick="onclickFunc()">
-                    <label for=""><%=`${pfvalues.item_type3}`%></label> <br>
+                    <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type1}`%>
+                    onclick="onclickFunc()">
+                    <label for="">
+                        <%=`${pfvalues.item_type1}`%>
+                    </label> <br>
+                    <input type="checkbox" class="item_type_checkboxes" value=<%=`${pfvalues.item_type2}`%>
+                    onclick="onclickFunc()">
+                    <label for="">
+                        <%=`${pfvalues.item_type2}`%>
+                    </label> <br>
+                    <input type="checkbox" class="item_type_checkboxes" value=<%=encodeURI(`${pfvalues.item_type3}`)%>
+                    onclick="onclickFunc()">
+                    <label for="">
+                        <%=`${pfvalues.item_type3}`%>
+                    </label> <br>
                 </div>
             </div>
             <hr>
@@ -82,21 +100,24 @@
             <hr>
         </div>
         <div id="rightDiv">
-            <div id="menProductDiv" >
+            <div id="menProductDiv">
 
-                <% for(let x of men ){  %>
-                <a href=<%=encodeURI(`/${pfvalues.gender1}/${x.item_type}/${x._id}`)%> class="colorlessAnchorTag" >
-                <div class="menDiv">
-                    <img <%=`src=${x.highresImage[0]}`%> alt="" class="menImg">
-                    <div class="menTitle"> Levi's® <%=x.title %></div>
-                    <div class="priceDiv">
-                        <p class="mrpp"> ₹<%= x.price.mrp %></p>
-                        <p class="pricee">₹<%= x.price.price %></p>
-                        <p class="dis"> (<%= x.price.disc %> % off)</p>
-                    </div>
-                </div>
-                </a>
-                <% } %>
+                <% for(let x of men ){ %>
+                    <a href=<%=encodeURI(`/${pfvalues.gender1}/${x.item_type}/${x._id}`)%> class="colorlessAnchorTag" >
+                        <div class="menDiv">
+                            <img <%=`src=${x.highresImage[0]}`%> alt="" class="menImg">
+                            <div class="menTitle"> Levi's® <%=x.title %>
+                            </div>
+                            <div class="priceDiv">
+                                <p class="mrpp"> ₹<%= x.price.mrp %>
+                                </p>
+                                <p class="pricee">₹<%= x.price.price %>
+                                </p>
+                                <p class="dis"> (<%= x.price.disc %> % off)</p>
+                            </div>
+                        </div>
+                    </a>
+                    <% } %>
 
             </div>
         </div>
@@ -113,4 +134,21 @@
 
     document.getElementsByTagName("footer")[0].innerHTML = footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
+
+
+    const cart_container_anchor = document.getElementById('cart_container_anchor')
+    cart_container_anchor.addEventListener('click', cart)
+
+    function cart() {
+        console.log("inside cart function")
+        let user_and_token = localStorage.getItem('user_and_token')
+        if (!user_and_token) {
+            window.location.href = "/login"
+            alert('please sign in')
+            return
+        }
+
+        const { user: { _id } } = user_and_token
+        window.location.href = `/cart/${_id}`
+    }
 </script>
