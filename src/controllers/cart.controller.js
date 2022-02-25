@@ -19,7 +19,8 @@ router.get( '',async ( req, res )=>{
 })
 router.post( '',async ( req, res )=>{
     try {
-
+        
+        console.log(req.body)
         const product = await Cart.findOne({ email : req.body.email, product_id : req.body.product_id}).lean().exec()
         if(product)
         {
