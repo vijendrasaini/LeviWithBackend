@@ -270,8 +270,8 @@
     cart_container_anchor.addEventListener('click', cart)
     function cart() {
         console.log("inside cart function")
-        let user_and_token = localStorage.getItem('user_and_token')
-        if(!user_and_token){
+        let token = localStorage.getItem('user_and_token')
+        if(!token){
             window.location.href = "/login"
             alert('please sign in')
             return 
