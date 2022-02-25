@@ -13,6 +13,9 @@ const googleoauthController = require('./controllers/googleoauth.controller')
 const { register, login } = require('./controllers/authentication.controller')
 const manController = require("./controllers/man.controller")
 const womanController = require("./controllers/woman.controller")
+const cardDetailsController = require("./controllers/cardDetails.controller")
+const paymentMethodsController = require("./controllers/paymentMethods.controller")
+const shippingController = require("./controllers/shipping.controller")
 
 
 const app = express()
@@ -33,6 +36,9 @@ app.post('/signin',login)
 app.use('/oauth', googleoauthController)
 app.use('/men', manController)
 app.use('/women', womanController)
+app.use("/cardDetails", cardDetailsController)
+app.use("/paymentMethods", paymentMethodsController)
+app.use("/shipping", shippingController)
 
 
 

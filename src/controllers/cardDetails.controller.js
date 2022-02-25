@@ -1,19 +1,19 @@
-// const { Router } = require('express')
-// const router = Router()
+const { Router } = require('express')
+const router = Router()
 
-// router.get((''), async ( req, res)=>{
-//     try {
+router.get((''), async ( req, res)=>{
+    try {
         
-//         return res
-//         .render("views/ejs/cardDetails.ejs",)
-//     } catch (error) {
-//         return res
-//         .status(500)
-//         .send({
-//             status : "get method error in cardDetails.controller",
-//             message : error.message
-//         })
-//     }
-// })
+        return res
+        .render("ejs/cardDetails.ejs",)
+    } catch (error) {
+        return res
+        .status(500)
+        .send({
+            status : "get method error in cardDetails.controller",
+            message : error.message
+        })
+    }
+})
 
-// module.exports = router
+module.exports = router

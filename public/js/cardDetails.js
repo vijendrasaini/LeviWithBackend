@@ -1,9 +1,10 @@
-document.querySelector("#sub").addEventListener("click", function () {
-
+document.querySelector("#submit").addEventListener("submit", function (event) {
+    event.preventDefault();
+    
     var name = document.querySelector("#name").value;
     var card = document.querySelector("#card").value;
     var cvv = document.querySelector("#cvv").value;
-
+    
     if (name.length == 0 || card.length == 0 || cvv.length == 0) {
         alert("Please Enter Required Fields....!");
     }
@@ -18,7 +19,7 @@ document.querySelector("#sub").addEventListener("click", function () {
             if (enter != null && Number(enter) === otimep) {
                 setTimeout(function () {
                     // alert("Order Placed Successfully!!!");
-                    window.location.href = "./thanks.html"
+                    window.location.href = "/thanks"
                 }, 0);
             } else {
                 alert("Invalid OTP");
