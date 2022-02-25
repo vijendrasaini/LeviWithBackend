@@ -131,22 +131,27 @@
   cart_container_anchor.addEventListener('click', cart)
   
   const add_cart_btn = document.getElementById('add_cart_btn')
-  add_cart_btn.addEventListener('click', cart)
+  add_cart_btn.addEventListener('click', postDataToCart)
 
   function cart() {
-    let token = localStorage.getItem('token')
-        if(!token){
+    let returned_token = localStorage.getItem('token')
+        if(!returned_token){
             window.location.href = "/login"
             alert('please sign in')
             return 
         }
-        postDataToCart()
+      const { email, token, id } = JSON.parse(returned_token)
+      window.location.href = `/cart/${id}`
     }
     async function postDataToCart(){
-      const { email } = JSON.parse(localStorage.getItem('token'))
-  
+      
+      const { email, token ,id} = JSON.parse(localStorage.getItem('token'))
+        if(!token){
+            alert('please sign in')
+            return 
+        }
       const send_body = {
-        email,
+        user_id : id,
         image : document.getElementById('prod_highres_image').src,
         product_id : document.getElementById('id_container').value,
         title : document.getElementById('p_name').textContent,
@@ -163,7 +168,6 @@
   
       const response1 = await fetch('/cart',sec_arg)
       const response2 = await response1.json()
-      console.log(response2)
       alert('Product is added in your cart.')
     }
 
