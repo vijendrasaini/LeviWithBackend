@@ -27,5 +27,6 @@
     "passport": "^0.5.2",
     "passport-google-oauth2": "^0.2.0"
   },
+  "devDependencies": {},
   "description": ""
 }
