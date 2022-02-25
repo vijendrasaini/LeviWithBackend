@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const router = Router()
 
-router.get('', async ( req, res)=>{
+router.get((''), async ( req, res)=>{
     try {
         return res
         .render("ejs/payment.ejs")
