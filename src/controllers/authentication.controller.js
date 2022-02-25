@@ -32,18 +32,18 @@ const login = async (req, res) => {
         if (!user)
             return res
                     .status(404)
-                    .send({ message: "userid or passwrod is incorrect." })
+                    .send({ status : 0 })
 
 
         const isRightFlag = user.checkPassword(req.body.password)
         if (isRightFlag == false)
             return res
                     .status(404)
-                    .send({ message: "userid or passwrod is incorrect." })
+                    .send({ status : 0 })
 
 
         const token = newToken(user)
-        res.status(201).send({ user, token })
+        res.status(201).send({ email : user.email, token , status : 1})
     } catch (error) {
         res.status(500).send({register : error.message})
     }
