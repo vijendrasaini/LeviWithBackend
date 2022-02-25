@@ -10,7 +10,6 @@
 
 <title>Cart</title>
 </head>
-
 <body>
     <header class="complete-header"></header>
     <div class="basket_and_summary_wrapper">
@@ -46,29 +45,16 @@
     </div>
     <footer></footer>
 </body>
-
 </html>
-<script src="/js/cart.js"></script>
 <script type="module">
     import navbar from "/js/header.js"
     import footermain from "/js/footermain.js"
+    import profile from "/components/profile.js"
+    import cart from "/components/cart.js"
 
     document.getElementsByTagName("footer")[0].innerHTML = footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
-
-    const cart_container_anchor = document.getElementById('cart_container_anchor')
-    cart_container_anchor.addEventListener('click', cart)
-
-    function cart() {
-        console.log("inside cart function")
-        let user_and_token = localStorage.getItem('user_and_token')
-        if (!user_and_token) {
-            window.location.href = "/login"
-            alert('please sign in')
-            return
-        }
-
-        const { user: { _id } } = user_and_token
-        window.location.href = `/cart/${_id}`
-    }
+    document.getElementById('cart_container_anchor').addEventListener('click', cart)
+    profile()
 </script>
+
