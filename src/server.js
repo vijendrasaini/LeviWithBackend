@@ -41,7 +41,6 @@ app.use("/paymentMethods", paymentMethodsController)
 app.use("/shipping", shippingController)
 
 
-
 module.exports = ()=>{
     app.listen( 7000, async () => {
         try {
