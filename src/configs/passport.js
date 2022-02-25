@@ -16,7 +16,7 @@ passport.use(new GoogleStrategy({
         user = await User.create({email : profile?._json?.email})
     }
     const token = newToken(user)
-      return done(null, {user, token , status : 1})
+      return done(null, { email : user.email, token , id : user._id})
   }
 ));
 
