@@ -41,16 +41,18 @@
         <p>Inclusive of all taxes</p>
         <span>Color</span>
         <div id="colors_row">
-            <% for(let x of man.color){%>
-              <div class="color_block">
-              </div>
-            <%}%>
+              <% for(let x in man.color){%>
+                <div class="color_block">
+                  <%=x%>
+                </div>
+              <%}%>
         </div>
 
         <h4>size</h4>
-        <div id="size_box">
+        <div id="size_row">
           <% for(let x in man.size){%>
-            <div id="size_box">
+            <div class="size_box">
+              <%=x%>
             </div>
           <% } %>
         </div>
@@ -107,7 +109,7 @@
 
 </html>
 
-<script src="/js/product.js"></script>
+<!-- <script src="/js/product.js"></script> -->
 <script type="module">
   import navbar from "/js/header.js"
   import footermain from "/js/footermain.js"
