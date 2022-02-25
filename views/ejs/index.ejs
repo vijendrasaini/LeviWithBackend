@@ -260,26 +260,53 @@
 </html>
 
 <script type="module">
+    
     import navbar from "/js/header.js"
     import footermain from "/js/footermain.js"
     
     document.getElementsByTagName("footer")[0].innerHTML=footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     
+    
     const cart_container_anchor = document.getElementById('cart_container_anchor')
     cart_container_anchor.addEventListener('click', cart)
+    
     function cart() {
         console.log("inside cart function")
-        let token = localStorage.getItem('user_and_token')
+        let token = localStorage.getItem('token')
         if(!token){
             window.location.href = "/login"
             alert('please sign in')
             return 
         }
-
-        const { user: {_id} } = user_and_token
-        window.location.href = `/cart/${_id}`
+        window.location.href = `/cart`
     }
+
+    profile()
+    function profile(){
+        const token = JSON.parse(localStorage.getItem('tokekn'))
+        
+        if(token)
+        {
+            const logged_in_user = document.getElementById('logged_in_user')
+            const { email } = token
+            console.log(email)
+            logged_in_user.textContent = `Hi ${ email }`
+        }
+    }
+    // function downloadModule(){
+    //     return new Promise((resolve , reject)=>{
+
+    //         import navbar from "/js/header.js"
+    //         if(!navbar)
+    //             reject('not impoted')
+    //         resolve('imported')
+    //     })
+    // }
+
+    // downloadModule().then((res)=>{
+    //     profile()  
+    // }).catch((err)=>console.log(err))
 
 </script>
 <script src="/js/levilanding.js"></script>
