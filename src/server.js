@@ -15,6 +15,13 @@ const manController = require("./controllers/man.controller")
 const womanController = require("./controllers/woman.controller")
 const cartController = require('./controllers/cart.controller')
 const profileController = require('./controllers/profile.controller')
+const paymentMethodsController = require("./controllers/paymentMethods.controller")
+const cardDetailsController = require("./controllers/cardDetails.controller")
+const netBankingController = require("./controllers/netBanking.controller")
+const upiController = require("./controllers/upi.controller")
+const walletController = require("./controllers/wallet.controller")
+const gpayController = require("./controllers/gpay.controller")
+
 
 const app = express()
 app.use(express.json())
@@ -36,6 +43,12 @@ app.use('/men', manController)
 app.use('/women', womanController)
 app.use('/cart',cartController)
 app.use('/profile', profileController)
+app.use("/paymentMethods", paymentMethodsController)
+app.use("/cardDetails", cardDetailsController)
+app.use("/netBanking", netBankingController)
+app.use("/upi", upiController)
+app.use("/wallet", walletController)
+app.use("/gpay", gpayController)
 
 
 
