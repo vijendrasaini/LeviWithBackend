@@ -2,6 +2,7 @@ function signUp(){
 
   const email = document.getElementById('suEmail').value
   const password = document.getElementById('suPassword').value
+  const mobile = document.getElementById('suPhone').value
 
   //validation at frontend level
 
@@ -13,8 +14,12 @@ function signUp(){
     alert("Enter valid password");
     return;
   }
+  if (mobile.length != 10) {
+    alert("Enter valid Mobile Number");
+    return;
+  }
 
-  const user = { email , password }
+  const user = { email, mobile , password }
   postUser(user,'/signup')
 }
 
@@ -70,8 +75,8 @@ const si_btn = document.getElementById('si_btn')
 
   if(response2.status)
   {
-    const { email , token , id} = response2
-    localStorage.setItem('token', JSON.stringify({ email, token, id}))
+    const { email , token , id, mobile} = response2
+    localStorage.setItem('token', JSON.stringify({ email, token, id, mobile}))
     alert('You are successfully logged in.')
     window.location.href = '/home'
   }
@@ -187,6 +192,7 @@ const si_btn = document.getElementById('si_btn')
 //     let suEmail = document.getElementById("suEmail").value;
 
 //     let suPhone = document.getElementById("suPhone").value;
+        
 //     if (suEmail.indexOf("@") == -1 || suEmail.length === 0) {
 //       alert("Enter valid Email id");
 //       return;

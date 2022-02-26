@@ -71,11 +71,7 @@
                 <div>
                     <br><br>
                     <span>Email: </span> 
-                    <span id="email">
-                        <% if(email == undefined){%>
-                         
-                         <% }%>
-                    </span>
+                    <span id="email"><% if(email != undefined){%><%=email%><% }%></span>
                     <br><br>
                     <span>Mobile Number: </span> 
                     <span id="mobile"></span>
@@ -91,6 +87,8 @@
         </div>
     </div>
     <footer></footer>
+    <p id="token"><% if(token != undefined ){ %><%=token%><% }%></p>
+    <p id="id"><% if(id != undefined ){ %><%=id%><% }%></p>
 </body>
 </html>
 <script type="module">
@@ -102,14 +100,29 @@
     document.getElementsByTagName("footer")[0].innerHTML = footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
-    profile()
-
+    
+    
     const data = JSON.parse(localStorage.getItem('token'))
     if(data){
         const { id , email, token, mobile } = data
         document.getElementById('email').textContent = email
         document.getElementById('mobile').textContent = mobile
+        document.getElementById('token').textContent = token
+        document.getElementById('id').textContent = id
     }
+    const valid = document.getElementById('mobile').textContent
+    if(valid.length != 10)
+        set_email_token_id()
+    profile()
+    function set_email_token_id(){
+        const email = document.getElementById('email').textContent
+        const token = document.getElementById('token').value
+        const id = document.getElementById('id').value
+
+        localStorage.setItem('token', JSON.stringify({ email, token, id}))
+    }
+
+
 
     document.getElementById('logoutDiv').addEventListener('click',logout)
     function logout(){
