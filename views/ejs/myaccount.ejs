@@ -87,8 +87,13 @@
         </div>
     </div>
     <footer></footer>
-    <p id="token"><% if(token != undefined ){ %><%=token%><% }%></p>
-    <p id="id"><% if(id != undefined ){ %><%=id%><% }%></p>
+    <p id="token">
+        <%let a = token;if(a != undefined ){<%=a%>} %>
+        
+    </p>
+    <p id="id">
+        <%let b = id;if( b != undefined ) {<%=b%> }%>
+    </p>
 </body>
 </html>
 <script type="module">
