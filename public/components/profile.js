@@ -3,10 +3,10 @@ function profile(){
     if(token)
     {
         const logged_in_user = document.getElementById('logged_in_user')
-        const { email } = token
-        console.log(email)
+        const { email , id} = token
+        console.log(email, id)
         logged_in_user.textContent = `Hi ${ email }`
-        logged_in_user.href = "/profile"
+        logged_in_user.href = `/profile/${id}`
     }
 }
 
