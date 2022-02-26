@@ -67,6 +67,7 @@
                     </span>
                     <h3>PROFILE</h3>
                 </div>
+
                 <div>
                     <br><br>
                     <span>Email: </span> 
@@ -79,8 +80,12 @@
                     <span>Mobile Number: </span> 
                     <span id="mobile"></span>
                 </div>
+
                 <div>
                     <h4>EDIT PROFILE</h4>
+                </div>
+                <div id="logoutDiv">
+                    <h4>LOG OUT</h4>
                 </div>
             </div>
         </div>
@@ -104,5 +109,12 @@
         const { id , email, token, mobile } = data
         document.getElementById('email').textContent = email
         document.getElementById('mobile').textContent = mobile
+    }
+
+    document.getElementById('logoutDiv').addEventListener('click',logout)
+    function logout(){
+        localStorage.removeItem('token')
+        alert('Successfully Logged out')
+        window.location.href = '/home'
     }
 </script>

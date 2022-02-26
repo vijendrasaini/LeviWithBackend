@@ -5,7 +5,7 @@ function profile(){
         const logged_in_user = document.getElementById('logged_in_user')
         const { email , id} = token
         console.log(email, id)
-        logged_in_user.textContent = `Hi ${ email }`
+        logged_in_user.textContent = `Hi ${ email.split('@')[0] }`
         logged_in_user.href = `/profile/${id}`
     }
 }

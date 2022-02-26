@@ -144,25 +144,33 @@
 }
 #Acc_detail2 > div > div:nth-child(2){
 
-    height: 200px;
+    height: 100px;
 }
 #Acc_detail2 > div > div:nth-child(3){
 
     height: 40px;
     width: 76%;
     background-color: #333333;
-    margin: auto;
+    margin:20px auto;
     border: 1px solid #333333;
     color:white;
     
 }
-#Acc_detail2 > div > div:nth-child(3):hover{
+#Acc_detail2 > div > div:nth-child(4){
+    height: 40px;
+    width: 76%;
+    background-color: #c22626;
+    margin:20px auto;
+    border: 1px solid #bd4343;
+    color:white;
+}
+#Acc_detail2 > div > div:nth-child(4):hover,#Acc_detail2 > div > div:nth-child(3):hover{
     background-color: white;
     cursor: pointer;
     color:black;
 }
 
-#Acc_detail2 > div > div:nth-child(3) > h4{
+#Acc_detail2 > div > div:nth-child(4) > h4,#Acc_detail2 > div > div:nth-child(3) > h4{
     margin-top: 12px;
 }
 
