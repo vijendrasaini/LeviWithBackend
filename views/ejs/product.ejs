@@ -159,5 +159,31 @@
       const response2 = await response1.json()
       alert('Product is added in your cart.')
     }
+    let colors_row = document.getElementsByClassName('color_block')
+    console.log(colors_row)
+    // colors_row.map(el=>console.log(el.textContent))
+    for(let i=0;i<colors_row.length;i++)
+    {
+      // console.log(colors_row[i].innerHTML)
+      colors_row[i].style.backgroundColor= colors_row[i].innerHTML
+      colors_row[i].innerHTML = ""
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </script>
