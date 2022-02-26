@@ -87,13 +87,6 @@
         </div>
     </div>
     <footer></footer>
-    <p id="token">
-        <%let a = token;if(a != undefined ){<%=a%>} %>
-        
-    </p>
-    <p id="id">
-        <%let b = id;if( b != undefined ) {<%=b%> }%>
-    </p>
 </body>
 </html>
 <script type="module">
@@ -109,22 +102,16 @@
     
     const data = JSON.parse(localStorage.getItem('token'))
     if(data){
-        const { id , email, token, mobile } = data
+        const { email ,mobile } = data
         document.getElementById('email').textContent = email
         document.getElementById('mobile').textContent = mobile
-        document.getElementById('token').textContent = token
-        document.getElementById('id').textContent = id
     }
-    const valid = document.getElementById('mobile').textContent
-    if(valid.length != 10)
-        set_email_token_id()
+    set_email()
     profile()
-    function set_email_token_id(){
+    function set_email(){
         const email = document.getElementById('email').textContent
-        const token = document.getElementById('token').value
-        const id = document.getElementById('id').value
 
-        localStorage.setItem('token', JSON.stringify({ email, token, id}))
+        localStorage.setItem('token', JSON.stringify({ email}))
     }
 
 
