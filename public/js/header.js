@@ -1,5 +1,6 @@
 const navbar = ()=>{
     return `
+    <div id="big">
     <div id="black_header">
     <div id="Black_footer_main">
         <ul>
@@ -149,7 +150,197 @@ const navbar = ()=>{
     <a href="./cart.html"><span id='cartIcon'><i class="fas fa-shopping-cart"></i></span></a> 
     </div>
     </div>
-    `
+    </div>
+    
+    
+    
+    
+    <div id="small">
+<div id="xnav">
+
+    <div id="small_sidebar">
+        <div id="xlogin">
+            <i class="fas fa-user"></i><a href="./menProducts.html">LOGIN</a>
+
+        </div>
+       <div id="Xmen">
+        <div class="smallreal"><a href="./menProducts.html">MEN</a><span>--</span></div>
+        <div class="outofname">
+           <div class="smallmain"><div>CLOTHING</div><div>+</div></div>
+           <div class="smalllist">
+            <ul>
+                <li><a href=""> Jeans</a></li>
+                <li><a href=""> Pants</a></li>
+                <li><a href=""> Shorts</a></li>
+                <li><a href=""> T-Shirts & Polos</a></li>
+                <li><a href=""> Shirts</a></li>
+                <li><a href="./menProducts.html"> Jackets</a></li>
+                <li><a href=""> Sweaters & Sweatshirts</a></li>
+            </ul>
+           </div>
+           <div>
+            <div class="smallmain"> <div>SHOP JEANS BY FIT</div><div>+</div></div>
+            <div class="smalllist">
+                <ul>
+                    <li><a href=""> Skinny</a></li>
+                    <li><a href=""> Slim</a></li>
+                    <li><a href=""> Tapered</a></li>
+                    <li><a href=""> Straight</a></li>
+                    <li><a href=""> Relaxed</a></li>
+                </ul>
+            </div>
+            <div class="smallmain"><div>ACCESSORIES</div><div>+</div></div>
+                <div class="smalllist">
+                    <ul>
+                       
+                        <li><a href=""> Belts</a></li>
+                        <li><a href=""> Wallets</a></li>
+                        <li><a href=""> Bags & Backpacks</a></li>
+                        <li><a href=""> Caps</a></li>
+                        <li><a href=""> Footwear</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="smallmain"><div>COLLECTIONS </div><div>+</div></div>
+                <div class="smalllist">
+                    <ul>
+                        <li><a href=""> Sustainability</a></li>
+                        <li><a href=""> Levi's® X Super Mario™</a></li>
+                        <li><a href=""> RedLoop™</a></li>
+                        <li><a href=""> White Tab</a></li>
+                        <li><a href=""> Winterwear</a></li>
+                        <li><a href=""> Levi's® Flex</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+       </div>
+<!-- go to the next -->
+
+
+<div id="xwomen">
+    <div class="smallreal"><a href="./women.html">WOMEN</a><span>--</span></div>
+    <div class="outofname">
+       <div class="smallmain"><div>CLOTHING</div><div>+</div></div>
+       <div class="smalllist">
+        <ul>
+            <li><a href="">Jeans</a></li>
+                            <li><a href="">T-Shirts & Tops</a></li>
+                            <li><a href="">Shirts</a></li>
+                            <li><a href="">Jackets</a></li>
+                            <li><a href="">Shirts</a></li>
+                            <li><a href="">Shorts & Skirts</a></li>
+                            <li><a href="">Pants</a></li>
+                            <li><a href="">Sweaters & Sweatshirts</a></li>
+        </ul>
+       </div>
+       <div>
+        <div class="smallmain"> <div>SHOP JEANS BY FIT</div><div>+</div></div>
+        <div class="smalllist">
+            <ul>
+                <li><a href=""> Skinny</a></li>
+                <li><a href=""> Slim</a></li>
+                <li><a href=""> Tapered</a></li>
+                <li><a href=""> Straight</a></li>
+                <li><a href=""> Relaxed</a></li>
+            </ul>
+        </div>
+        <div class="smallmain"><div>ACCESSORIES</div><div>+</div></div>
+            <div class="smalllist">
+                <ul>
+                   
+                    <li><a href="">Super Skinny</a></li>
+                            <li><a href="">Skinny</a></li>
+                            <li><a href="">Slim</a></li>
+                            <li><a href="">Balloon Leg</a></li>
+                            <li><a href="">High Rise</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="smallmain"><div>COLLECTIONS </div><div>+</div></div>
+            <div class="smalllist">
+                <ul>
+                    <li><a href="">Sustainability</a></li>
+                            <li><a href="">Levi's® X Super Mario™</a></li>
+                            <li><a href="">Balloon Jeans</a></li>
+                            <li><a href="">Sculpt Jeans</a></li>
+                            <li><a href="">Levi's® Made & Crafted®</a></li>
+                            <li><a href=""></a>Winterwear</li>
+                            <li><a href="">RedLoop™</a></li>
+                            <li><a href="">White Tab</a></li>
+                  </ul>
+              </div>
+           </div>
+        
+           </div>
+      </div>
+       <!-- new arrivals -->
+      <div id="xnewarrivals">
+            <div class="smallreal"><a href=#>NEW ARRIVALS</a><span>--</span></div>
+            <div>
+            <div class="smallmain"><div>MEN</div></div>
+             <div class="smallmain"><div>WOMEN</div></div>
+             <div class="smallmain"><div>ONLINE EXCLUSIVE</div></div>
+          </div>
+           </div>
+
+          
+            <!-- collections -->
+            <div id="xcollections">
+                <div class="smallreal"><a href="">COLLECTIONS</a><span>--</span></div>
+                <div>
+                    <div class="smallmain"><div>REDLOOP</div></div>
+                    <div class="smallmain"><div>LEVI'S® MADE & CRAFTED®</div></div>
+                    <div class="smallmain"><div>FASHIONFITS</div></div>
+                    <div class="smallmain"><div>LEVI'S X DEEPIKA PADUKONE</div></div>
+                    <div class="smallmain"><div>WINTERWEAR COLLECTION</div></div>
+                </div>
+              
+              </div>
+<!-- sale -->
+<div id="xsale">
+    <div class="smallreal"><a href="">SALE</a><span>+</span></div>
+    <div>
+        <div class="smallmain"><div>MEN</div></div>
+        <div class="smallmain"><div>WOMEN</div></div>
+        <div class="smallmain"><div>FLAT 60%</div></div>
+    </div>
+   
+
+</div>
+
+<div id="xwinterwear">
+    <div class="smallreal"><a href="">WINTERWEAR COLLECTION</a></div>
+
+</div>
+
+<div id="xhelp">
+<div>Help</div>
+<div>Track Order</div>
+<div>Store Locator</div>
+</div>
+
+ </div>
+
+
+
+    <div id="Small_header">
+         <div id="xthreeicon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <div class="logo-image"><a href="./index.html">
+            <!-- <img src="https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw96cbad45/images/homepage/logo.jpg" alt=""> -->
+        </a></div>
+        <div>
+            <span id="xsearch"><i class="fas fa-search"></i></span>
+            <span><i class="fas fa-shopping-cart"></i></span>
+        </div> 
+    </div>
+</div>
+</div>
+</body>
+</html>`
 }
 
     export default navbar
