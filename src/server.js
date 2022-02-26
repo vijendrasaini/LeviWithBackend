@@ -14,7 +14,7 @@ const { register, login } = require('./controllers/authentication.controller')
 const manController = require("./controllers/man.controller")
 const womanController = require("./controllers/woman.controller")
 const cartController = require('./controllers/cart.controller')
-
+const profileController = require('./controllers/profile.controller')
 
 const app = express()
 app.use(express.json())
@@ -35,6 +35,7 @@ app.use('/oauth', googleoauthController)
 app.use('/men', manController)
 app.use('/women', womanController)
 app.use('/cart',cartController)
+app.use('/profile', profileController)
 
 
 

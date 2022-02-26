@@ -70,7 +70,11 @@
                 <div>
                     <br><br>
                     <span>Email: </span> 
-                    <span id="email"><%=email%></span>
+                    <span id="email">
+                        <% if(email == undefined){%>
+                         
+                         <% }%>
+                    </span>
                     <br><br>
                     <span>Mobile Number: </span> 
                     <span id="mobile"></span>
@@ -97,7 +101,7 @@
 
     const data = JSON.parse(localStorage.getItem('token'))
     if(data){
-        const { id , email, token, mobile } = token
+        const { id , email, token, mobile } = data
         document.getElementById('email').textContent = email
         document.getElementById('mobile').textContent = mobile
     }
