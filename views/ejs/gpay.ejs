@@ -26,6 +26,7 @@
             <p></p>
             <form id="form">
                 <div>
+                    <img src="https://api.payu.in/public/assets/images/gpay-new.svg" alt="gpay">
                     <label for="">Mobile Number</label> <br>
                     <input id="number" type="mobile" placeholder="Enter Mobile Number">
                 </div>
@@ -35,9 +36,10 @@
 </body>
 
 </html>
-<script src="/js/gpay.js">
-    const backToPaymentMethods = () => {
+<script src="/js/gpay.js"></script>
+
+<script>
+    function backToPaymentMethods() {
         window.location.href = "/paymentMethods"
     }
-
 </script>
