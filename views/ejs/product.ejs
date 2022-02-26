@@ -16,7 +16,6 @@
 <body>
 
   <header class="complete-header"></header>
-  <input type="hidden" id="id_container" value=<%=`${man._id}`%>
   <div id="product_body">
     <p id="pro_path">
       <%=`${man.gender} /clothing/${man.item_type}`%>
@@ -27,10 +26,10 @@
           <%for(let x of man.image){%>
             <img <%=`src=${x}`%> alt="" class="mini_image">
             <%}%>
-        </div>
+          </div>
         <div id="preview"><img <%=`src=${man.highresImage[0]}`%> alt="" id="prod_highres_image"></div>
       </div>
-
+      
       <div id="product_details">
         <h1 id="p_name"><%=man.title%></h1>
         <p id="p_num"> Item Number: <%=man.item_no%>
@@ -59,7 +58,7 @@
               <%=x%>
             </div>
             <% } %>
-        </div>
+          </div>
         <h4>Delivery Eligibility</h4>
         <div class="" id="del_div">
           <input type="text" placeholder="Enter Pincode">
@@ -115,6 +114,7 @@
     </div>
   </div>
   <footer></footer>
+  <input type="hidden" id="id_container" value=<%=`${man._id}`%>
 </body>
 
 </html>
@@ -123,7 +123,7 @@
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
-
+    
     document.getElementsByTagName("footer")[0].innerHTML = footermain()
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
