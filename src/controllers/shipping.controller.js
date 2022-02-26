@@ -9,7 +9,7 @@ router.get('', async ( req, res)=>{
         return res
         .status(500)
         .send({
-            status : "get method error in home.controller",
+            status : "get method error in shipping.controller",
             message : error.message
         })
     }
