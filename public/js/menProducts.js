@@ -147,11 +147,11 @@ function openAndCloseFunc(i)
     const more=document.getElementById("openAndCloseDiv"+i);
     if(more.style.display==="none"){
         more.style.display="block";
-        openAndCloseClass[i].innerHTML = contentp
+        openAndCloseClass[i].innerHTML = contentm
     }
     else{
         more.style.display="none";
-        openAndCloseClass[i].innerHTML = contentm
+        openAndCloseClass[i].innerHTML = contentp
     }
 }
 
