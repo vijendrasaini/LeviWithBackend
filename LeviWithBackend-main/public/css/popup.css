@@ -1,0 +1,44 @@
+
+
+#thePopup{
+   
+position:fixed;
+width:100%;
+height:2000px;
+background-color: transparent;
+position: fixed;
+display: none;
+justify-content:center;
+font-family: sans-serif;
+padding-top: 20px;
+}
+
+#thePopup>div{
+background-color: white;
+width: 30%;
+color: black;
+overflow-y: scroll;
+height: 600px;
+}
+
+
+#thePopup>div>div{
+    display: flex;
+    height: 100px;
+    margin-left:5%;
+}
+
+#thePopup>div img{
+    height: 90%; 
+    margin-top: 5%;
+    float: left;
+}
+#thePopup>div>div>div:nth-child(2)
+{
+   margin-left: 3%;
+}
+
+
+#thePopup>div::-webkit-scrollbar {
+    display: none;
+  }
