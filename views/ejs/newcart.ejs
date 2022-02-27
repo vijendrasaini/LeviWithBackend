@@ -32,15 +32,9 @@
                 </div>
             </div>
             <div id="rem">
-                <select id="quantity">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="5">6</option>
-                </select> <br>
-                <a href="">REMOVE</a>
+                <div id="pro_qty"><%=x.qty%></div>
+                <br>
+                <a <%=`href=/cart/${x.user_id}?id=${x._id}&remove=true`%>>REMOVE</a>
             </div>
             <div id="unitPrice"><%=x.price%></div>
             <div id="totalPrice"><%=((+x.price) * (+x.qty)).toFixed(2)%></div>
@@ -81,4 +75,13 @@
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
     profile()
 
+    document.getElementById('continueShopping').addEventListener('click',()=>{
+        window.location.href = '/men'
+    })
+</script>
+<script>
+    function checkOut(){
+        window.location.href = '/payment'
+    }
+    
 </script>
