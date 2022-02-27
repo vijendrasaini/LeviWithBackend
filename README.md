@@ -105,7 +105,7 @@ These are the components outlined in levi's site. All levi's components support 
 
 ---
 
-### Homepage Data Code Block
+### Data Code Block
 
 
 {
