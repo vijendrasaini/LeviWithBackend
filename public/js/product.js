@@ -1,14 +1,14 @@
-function cart(){
-  user_and_token = localStorage.getItem('user_and_token')
-  if(!user_and_token){
-    window.localStorage.href = "/login"
-    alert('please sign in')
-    return 
-  }
+// function cart(){
+//   user_and_token = localStorage.getItem('user_and_token')
+//   if(!user_and_token){
+//     window.localStorage.href = "/login"
+//     alert('please sign in')
+//     return 
+//   }
 
-  const { user: {_id} } = user_and_token
-  window.location.href = `/cart/${_id}`
-}
+//   const { user: {_id} } = user_and_token
+//   window.location.href = `/cart/${_id}`
+// }
 
 
 
