@@ -133,12 +133,13 @@
   add_cart_btn.addEventListener('click', postDataToCart)
 
     async function postDataToCart(){
-      
-      const { email, token ,id} = JSON.parse(localStorage.getItem('token'))
-        if(!token){
+      const data = JSON.parse(localStorage.getItem('token'))
+      const { email, token ,id} = data
+        if(!data){
             alert('please sign in')
             return 
         }
+        console.log('user_Id _in', id)
       const send_body = {
         user_id : id,
         image : document.getElementById('prod_highres_image').src,
@@ -160,30 +161,10 @@
       alert('Product is added in your cart.')
     }
     let colors_row = document.getElementsByClassName('color_block')
-    console.log(colors_row)
-    // colors_row.map(el=>console.log(el.textContent))
     for(let i=0;i<colors_row.length;i++)
     {
-      // console.log(colors_row[i].innerHTML)
       colors_row[i].style.backgroundColor= colors_row[i].innerHTML
       colors_row[i].innerHTML = ""
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
