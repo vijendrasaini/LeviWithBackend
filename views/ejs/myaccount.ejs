@@ -106,7 +106,9 @@
         document.getElementById('email').textContent = email
         document.getElementById('mobile').textContent = mobile
     }
-    set_email()
+    console.log(document.getElementById('mobile').textContent)
+    if(document.getElementById('mobile').textContent.length != 10)
+        set_email()
     profile()
     function set_email(){
         const email = document.getElementById('email').textContent
