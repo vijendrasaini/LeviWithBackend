@@ -35,10 +35,8 @@
         <p id="p_num"> Item Number: <%=man.item_no%>
         </p>
         <div id="price_sec">
-          <span id="mrp">
-            <%=man.price.mrp%>
-          </span>
-          <span id="price">₹ <span id="pro_price_x"><%=man.price.price%></span></span>
+          <span id="mrp">₹<%=man.price.mrp%></span>
+          <span id="price"> ₹<span id="pro_price_x"><%=man.price.price%></span></span>
           <span id="disc">( <%=man.price.disc%> % off )</span>
         </div>
         <p>Inclusive of all taxes</p>
@@ -67,9 +65,13 @@
         <div id="buy_div">
           <div id="qty_text">QTY</div>
           <div id="qty_sel">
-            <option value="" id="qty_opt">
-              1
-            </option>
+            <select name="" id="qty_opt">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
           </div>
           <button id="add_cart_btn" >ADD TO CART</button>
           <button id="buy_now" onclick="wishlist()">BUY NOW</button>
@@ -145,7 +147,8 @@
         image : document.getElementById('prod_highres_image').src,
         product_id : document.getElementById('id_container').value,
         title : document.getElementById('p_name').textContent,
-        price : document.getElementById('pro_price_x').textContent
+        price : document.getElementById('pro_price_x').textContent,
+        qty : document.getElementById('qty_opt').value
       }
   
       const sec_arg = {

@@ -36,8 +36,8 @@
                 <br>
                 <a <%=`href=/cart/${x.user_id}?id=${x._id}&remove=true`%>>REMOVE</a>
             </div>
-            <div id="unitPrice"><%=x.price%></div>
-            <div id="totalPrice"><%=((+x.price) * (+x.qty)).toFixed(2)%></div>
+            <div id="unitPrice">₹ <%=(+x.price).toFixed(2)%></div>
+            <div id="totalPrice">₹ <%=((+x.price) * (+x.qty)).toFixed(2)%></div>
         </div>
         <br>
         <%}%>
@@ -51,7 +51,7 @@
             <span class="subTotal">SUB TOTAL</span>
             <hr>
             <span class="total">
-                <%= products.reduce((ac,el)=>ac+((+el.price) * (+el.qty)),0).toFixed(2)%>
+                ₹ <%= products.reduce((ac,el)=>ac+((+el.price) * (+el.qty)),0).toFixed(2)%>
             </span> <span class="gst">(INCLUSIVE OF GST)</span>
         </div>
         <hr>

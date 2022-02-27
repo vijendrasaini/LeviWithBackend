@@ -162,13 +162,13 @@
   width: 70px;
   height: 40px;
   margin-top: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
   cursor: pointer;
 }
 #qty_opt {
   width: 70px;
   height: 40px;
-  border: 1px solid red;
+  border: 2px solid red;
 }
 #add_cart_btn {
   height: 50px;
