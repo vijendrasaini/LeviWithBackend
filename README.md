@@ -11,12 +11,23 @@ Thanks for visiting [levi's site](https://www.levi.in)!
 These are the components outlined in levi's site. All levi's components support these.
 
 ---
-### Packages to be install
+### How to run
 - install npm packages
 - install nodemon
 - run server 
 - run site through localhost 7000
+
+### npm packages to be installed
+- *ejs
+- *express
+- *mongoose
+- *jsonwebtoken
+- *bcryptjs
+
+
 ### Tech Stacks :Express,MongoDB,Mongoose,JavaScript,NodeJS,HTML,CSS,EJS
+
+
 ### Components
 - Landing page
 - Products page
