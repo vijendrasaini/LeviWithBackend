@@ -1,5 +1,4 @@
 function cart() {
-    console.log("inside cart function")
     let token = localStorage.getItem('token')
     if (!token) {
         window.location.href = "/login"
