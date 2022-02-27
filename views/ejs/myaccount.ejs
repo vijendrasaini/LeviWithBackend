@@ -74,7 +74,7 @@
                     <span id="email"><% if(email != undefined){%><%=email%><% }%></span>
                     <br><br>
                     <span>Mobile Number: </span> 
-                    <span id="mobile"></span>
+                    <span id="mobile">N/A</span>
                 </div>
 
                 <div>
@@ -90,7 +90,7 @@
 </body>
 </html>
 <script type="module">
-    import navbar from "/js/header.js"
+    import { navbar, search } from "/js/header.js"
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
@@ -110,6 +110,7 @@
     if(document.getElementById('mobile').textContent.length != 10)
         set_email()
     profile()
+    search()
     function set_email(){
         const email = document.getElementById('email').textContent
 

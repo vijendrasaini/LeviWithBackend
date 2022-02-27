@@ -22,6 +22,7 @@ const upiController = require("./controllers/upi.controller")
 const walletController = require("./controllers/wallet.controller")
 const gpayController = require("./controllers/gpay.controller")
 const shippingController = require("./controllers/shipping.controller")
+const searchController = require('./controllers/search.controller')
 
 
 const app = express()
@@ -51,6 +52,7 @@ app.use("/upi", upiController)
 app.use("/wallet", walletController)
 app.use("/gpay", gpayController)
 app.use('/shipping',shippingController)
+app.use('/search',searchController)
 
 
 

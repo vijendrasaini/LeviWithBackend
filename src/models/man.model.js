@@ -22,7 +22,7 @@ const menSchema = new mongoose.Schema(
 
 
 
-module.exports = mongoose.model('man', menSchema)
+module.exports = mongoose.model('men', menSchema)
 // let x = new Schema
 // "title": "LEVI'S® TRUCKER JACKET",
 //         "item_no": "289430022",

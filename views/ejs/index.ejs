@@ -18,6 +18,7 @@
 <body>
     <header class="complete-header"></header>
 
+
     <!-- prajwal -->
     <div id="puniversal">
         <div id="pinterval">
@@ -265,7 +266,8 @@
 
 <script type="module">
 
-    import navbar from "/js/header.js"
+    // import manager from "/components/manager.js"
+    import { navbar, search } from "/js/header.js"
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
@@ -274,6 +276,15 @@
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
     profile()
+    search();
+
+
+    // ------------------------------------------------Searching Functionality --------------------------------------
+
+
+
+
+
 </script>
 <script src="/js/responsive_header.js"></script>
 <script src="/js/levilanding.js"></script>

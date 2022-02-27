@@ -88,7 +88,7 @@ function onclickFunc(){
     //                     obj[`prefv${cv}`] = []
     //             obj[`prefv${cv}`].push(priceRadioInputClasses[i].value)
     //         }
-    // createDynamicUrl(obj,gKeys, iKeys)
+    createDynamicUrl(obj,gKeys, iKeys)
 }
 function createDynamicUrl(obj,gKeys, iKeys){
     delete obj.flag

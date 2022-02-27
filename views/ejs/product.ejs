@@ -26,17 +26,21 @@
           <%for(let x of man.image){%>
             <img <%=`src=${x}`%> alt="" class="mini_image">
             <%}%>
-          </div>
+        </div>
         <div id="preview"><img <%=`src=${man.highresImage[0]}`%> alt="" id="prod_highres_image"></div>
       </div>
-      
+
       <div id="product_details">
-        <h1 id="p_name"><%=man.title%></h1>
+        <h1 id="p_name">
+          <%=man.title%>
+        </h1>
         <p id="p_num"> Item Number: <%=man.item_no%>
         </p>
         <div id="price_sec">
           <span id="mrp">₹<%=man.price.mrp%></span>
-          <span id="price"> ₹<span id="pro_price_x"><%=man.price.price%></span></span>
+          <span id="price"> ₹<span id="pro_price_x">
+              <%=man.price.price%>
+            </span></span>
           <span id="disc">( <%=man.price.disc%> % off )</span>
         </div>
         <p>Inclusive of all taxes</p>
@@ -56,7 +60,7 @@
               <%=x%>
             </div>
             <% } %>
-          </div>
+        </div>
         <h4>Delivery Eligibility</h4>
         <div class="" id="del_div">
           <input type="text" placeholder="Enter Pincode">
@@ -73,7 +77,7 @@
               <option value="5">5</option>
             </select>
           </div>
-          <button id="add_cart_btn" >ADD TO CART</button>
+          <button id="add_cart_btn">ADD TO CART</button>
           <button id="buy_now" onclick="wishlist()">BUY NOW</button>
         </div>
       </div>
@@ -121,53 +125,53 @@
 
 </html>
 <script type="module">
-    import navbar from "/js/header.js"
-    import footermain from "/js/footermain.js"
-    import profile from "/components/profile.js"
-    import cart from "/components/cart.js"
-    
-    document.getElementsByTagName("footer")[0].innerHTML = footermain()
-    document.getElementsByTagName('header')[0].innerHTML = navbar()
-    document.getElementById('cart_container_anchor').addEventListener('click', cart)
-    profile()
-  
+  import { navbar, search } from "/js/header.js"
+  import footermain from "/js/footermain.js"
+  import profile from "/components/profile.js"
+  import cart from "/components/cart.js"
+
+  document.getElementsByTagName("footer")[0].innerHTML = footermain()
+  document.getElementsByTagName('header')[0].innerHTML = navbar()
+  document.getElementById('cart_container_anchor').addEventListener('click', cart)
+  profile()
+  search()
+
   const add_cart_btn = document.getElementById('add_cart_btn')
   add_cart_btn.addEventListener('click', postDataToCart)
 
-    async function postDataToCart(){
-      const data = JSON.parse(localStorage.getItem('token'))
-      const { email, token ,id} = data
-        if(!data){
-            alert('please sign in')
-            return 
-        }
-        console.log('user_Id _in', id)
-      const send_body = {
-        user_id : id,
-        image : document.getElementById('prod_highres_image').src,
-        product_id : document.getElementById('id_container').value,
-        title : document.getElementById('p_name').textContent,
-        price : document.getElementById('pro_price_x').textContent,
-        qty : document.getElementById('qty_opt').value
-      }
-  
-      const sec_arg = {
-        method : "POST",
-        headers : {
-          "Content-Type" : "application/json"
-        },
-        body : JSON.stringify(send_body)
-      }
-  
-      const response1 = await fetch('/cart',sec_arg)
-      const response2 = await response1.json()
-      alert('Product is added in your cart.')
+  async function postDataToCart() {
+    const data = JSON.parse(localStorage.getItem('token'))
+    const { email, token, id } = data
+    if (!data) {
+      alert('please sign in')
+      return
     }
-    let colors_row = document.getElementsByClassName('color_block')
-    for(let i=0;i<colors_row.length;i++)
-    {
-      colors_row[i].style.backgroundColor= colors_row[i].innerHTML
-      colors_row[i].innerHTML = ""
+    console.log('user_Id _in', id)
+    const send_body = {
+      user_id: id,
+      image: document.getElementById('prod_highres_image').src,
+      product_id: document.getElementById('id_container').value,
+      title: document.getElementById('p_name').textContent,
+      price: document.getElementById('pro_price_x').textContent,
+      qty: document.getElementById('qty_opt').value
+    }
 
+    const sec_arg = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(send_body)
     }
+
+    const response1 = await fetch('/cart', sec_arg)
+    const response2 = await response1.json()
+    alert('Product is added in your cart.')
+  }
+  let colors_row = document.getElementsByClassName('color_block')
+  for (let i = 0; i < colors_row.length; i++) {
+    colors_row[i].style.backgroundColor = colors_row[i].innerHTML
+    colors_row[i].innerHTML = ""
+
+  }
 </script>

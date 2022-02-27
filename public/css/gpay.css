@@ -27,14 +27,16 @@ body{
 }
 #leftArrow{
     cursor: pointer;
-    justify-content: left;
+    margin-top: 10%;
+    float: left;
 }
 #leviLogo{
-    justify-content: right;
     border: 1px rgb(248, 227, 227) solid;
     padding: 7%;
     height: 35px;
     width: 70px;
+    float: right;
+    
 }
 #rightDiv>span{
     margin-left: 9%;
@@ -43,6 +45,7 @@ body{
     color: rgb(126, 120, 120);
 }
 #p1{
+    margin-top: 40%;
 font-size: 25px;
 font-weight: 600;
 }
@@ -86,79 +89,3 @@ button{
 }
 
 
-
-/* body{
-    font-family: sans-serif;
-}
-#mainDiv{
-    display: flex;
-    width: 50%;
-    margin: auto;
-    margin-top: 3%;
-}
-#leftDiv{
-    width: 40%;
-    height: 600px;
-    padding-left: 3%;
-    padding-right: 7%;
-    padding-top: 4%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-left: 6px rgb(184, 39, 39) solid;
-    border-radius: 5px;
-}
-#rightDiv{
-    width: 60%;
-    height: 600px;
-    padding-top: 4%;
-    overflow-y: scroll;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-#leftArrow{
-    justify-content: left;
-}
-#leviLogo{
-    justify-content: right;
-    border: 1px rgb(248, 227, 227) solid;
-    padding: 7%;
-    height: 35px;
-    width: 70px;
-}
-h2{
-    padding-top: 3%;
-    font-weight: 500;
-    font-size: larger;
-}
-.rightDropdown{
-   justify-content: right;
-}
-.payMethods{
-    display: flex;
-    padding-bottom: 4%;
-    padding-left: 9%;
-    padding-top: 3%;
-    font-size: 12px;
-    border-bottom: 1px solid rgb(241, 235, 235);
-}
-.payMethods > div{
-    margin-left: 10px;
-    letter-spacing: 1px;
-    margin-top: 5px;
-}
-#rightDiv>span{
-    margin-left: 9%;
-    font-size: 10px;
-    font-weight: 700;
-    color: rgb(126, 120, 120);
-}
-#p1{
-font-size: 25px;
-font-weight: 600;
-}
-#p2{
-    font-size: 15px;
-    font-weight: 500;
-}
-#p3{
-    font-size: 10px;
-    color: rgb(192, 181, 181);
-} */

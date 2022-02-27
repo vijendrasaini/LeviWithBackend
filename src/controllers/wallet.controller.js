@@ -4,7 +4,7 @@ const router = Router()
 router.get('', async ( req, res)=>{
     try {
         return res
-        .render("ejs/walle.ejs")
+        .render("ejs/wallet.ejs")
     } catch (error) {
         return res
         .status(500)

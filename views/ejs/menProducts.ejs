@@ -106,7 +106,7 @@
                     <a href=<%=encodeURI(`/${pfvalues.gender1}/${x.item_type}/${x._id}`)%> class="colorlessAnchorTag" >
                         <div class="menDiv">
                             <img <%=`src=${x.highresImage[0]}`%> alt="" class="menImg">
-                            <div class="menTitle"> Levi's® <%=x.title %>
+                            <div class="menTitle"><%=x.title %>
                             </div>
                             <div class="priceDiv">
                                 <p class="mrpp"> ₹<%= x.price.mrp %>
@@ -129,7 +129,7 @@
 <script src="/js/menProducts.js"></script>
 
 <script type="module">
-    import navbar from "/js/header.js"
+    import { navbar, search } from "/js/header.js"
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
@@ -138,5 +138,6 @@
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
     profile()
+    search()
 
 </script>

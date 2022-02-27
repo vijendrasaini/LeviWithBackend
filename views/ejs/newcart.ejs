@@ -51,7 +51,7 @@
             <span class="subTotal">SUB TOTAL</span>
             <hr>
             <span class="total">
-                ₹ <%= products.reduce((ac,el)=>ac+((+el.price) * (+el.qty)),0).toFixed(2)%>
+                ₹ <span id="totalAmt"><%= products.reduce((ac,el)=>ac+((+el.price) * (+el.qty)),0).toFixed(2)%></span>
             </span> <span class="gst">(INCLUSIVE OF GST)</span>
         </div>
         <hr>
@@ -65,7 +65,7 @@
 </body>
 </html>
 <script type="module">
-    import navbar from "/js/header.js"
+   import { navbar, search } from "/js/header.js"
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
@@ -74,10 +74,15 @@
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
     profile()
+    search()
 
     document.getElementById('continueShopping').addEventListener('click',()=>{
         window.location.href = '/men'
     })
+
+   const amount = document.getElementById("totalAmt").textContent;
+   localStorage.setItem("amount", amount);
+
 </script>
 <script>
     function checkOut(){

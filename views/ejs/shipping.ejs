@@ -10,13 +10,13 @@
 </head>
 
 <body>
-    
+
     <header class="complete-header"></header>
     <div id="checkoutPage">
         <!---------------------shipping address start--------------------->
         <div id="shippingAddress">
             <h4>SHIPPING ADDRESS</h4>
-            <input type="email" required placeholder="Email Address" > <br>
+            <input type="email" required placeholder="Email Address"> <br>
             <input type="text" required placeholder="First Name"> <br>
             <input type="text" required placeholder="Last Name"> <br>
             <input type="number" required placeholder="PIN Code" id="pin"> <br>
@@ -26,7 +26,7 @@
             <input type="text" required placeholder="City/District/Town"> <br>
             <input type="number" required placeholder="Mobile Number"> <br>
             <select name="" id="states" required>
-                <option value=""  disabled selected hidden>State</option>
+                <option value="" disabled selected hidden>State</option>
                 <option value="">Andhra Pradesh</option>
                 <option value="">Arunachal Pradesh</option>
                 <option value="">Assam</option>
@@ -69,7 +69,7 @@
 </html>
 <script type="module">
 
-    import navbar from "/js/header.js"
+    import { navbar, search } from "/js/header.js"
     import footermain from "/js/footermain.js"
     import profile from "/components/profile.js"
     import cart from "/components/cart.js"
@@ -78,10 +78,11 @@
     document.getElementsByTagName('header')[0].innerHTML = navbar()
     document.getElementById('cart_container_anchor').addEventListener('click', cart)
     profile()
+    search()
 </script>
 <script>
     function proceedToCheckOut() {
-        
+
         window.location.href = "/payment"
     }
 </script>
