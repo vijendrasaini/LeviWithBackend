@@ -1,6 +1,6 @@
-const priceRadioInputClasses = document.getElementsByClassName('priceRadioInputClass')
 const gender_checkboxes = document.getElementsByClassName('gender_checkboxes')
 const item_type_checkboxes = document.getElementsByClassName('item_type_checkboxes')
+const priceRadioInputClasses = document.getElementsByClassName('priceRadioInputClass')
 
 let record_gKeys = JSON.parse(localStorage.getItem('gKeys'))
 let record_iKeys = JSON.parse(localStorage.getItem('iKeys'))
@@ -69,7 +69,26 @@ function onclickFunc(){
                     obj[`prefv${cv}`] = []
             obj[`prefv${cv}`].push(item_type_checkboxes[i].value)
         }
-    createDynamicUrl(obj,gKeys, iKeys)
+
+    //     obj.flag = 1
+    //     let item_type_arr = []
+    //     for(let i = 0 ; i < priceRadioInputClasses.length ; i++ )  
+    //         if(priceRadioInputClasses[i].checked)
+    //         {
+    //             // iKeys.push(i)
+    //             if(obj.flag)
+    //                 {
+    //                     cv++
+    //                     cn++
+    //                     obj.flag = 0
+    //                 }
+    //             if(obj[`prefn${cn}`] == undefined)
+    //                 obj[`prefn${cn}`] = "item_type"
+    //             if(obj[`prefv${cv}`] == undefined)
+    //                     obj[`prefv${cv}`] = []
+    //             obj[`prefv${cv}`].push(priceRadioInputClasses[i].value)
+    //         }
+    // createDynamicUrl(obj,gKeys, iKeys)
 }
 function createDynamicUrl(obj,gKeys, iKeys){
     delete obj.flag

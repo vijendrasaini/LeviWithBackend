@@ -21,6 +21,7 @@ const netBankingController = require("./controllers/netBanking.controller")
 const upiController = require("./controllers/upi.controller")
 const walletController = require("./controllers/wallet.controller")
 const gpayController = require("./controllers/gpay.controller")
+const shippingController = require("./controllers/shipping.controller")
 
 
 const app = express()
@@ -49,6 +50,7 @@ app.use("/netBanking", netBankingController)
 app.use("/upi", upiController)
 app.use("/wallet", walletController)
 app.use("/gpay", gpayController)
+app.use('/shipping',shippingController)
 
 
 

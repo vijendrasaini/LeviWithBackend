@@ -1,3 +1,4 @@
+
 body{
     font-family: sans-serif;
 }
@@ -23,8 +24,10 @@ body{
     padding-top: 4%;
     overflow-y: scroll;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
 }
 #leftArrow{
+    cursor: pointer;
     justify-content: left;
 }
 #leviLogo{
@@ -33,27 +36,6 @@ body{
     padding: 7%;
     height: 35px;
     width: 70px;
-}
-h2{
-    padding-top: 3%;
-    font-weight: 500;
-    font-size: larger;
-}
-.rightDropdown{
-   justify-content: right;
-}
-.payMethods{
-    display: flex;
-    padding-bottom: 4%;
-    padding-left: 9%;
-    padding-top: 3%;
-    font-size: 12px;
-    border-bottom: 1px solid rgb(241, 235, 235);
-}
-.payMethods > div{
-    margin-left: 10px;
-    letter-spacing: 1px;
-    margin-top: 5px;
 }
 #rightDiv>span{
     margin-left: 9%;
@@ -72,4 +54,34 @@ font-weight: 600;
 #p3{
     font-size: 10px;
     color: rgb(192, 181, 181);
+}
+#form{
+    padding-left: 12%;
+    background-color: whitesmoke;
+    border-left: 6px rgb(184, 39, 39) solid;
+}
+label{
+    font-size: 14px;
+    font-weight: 300;
+}
+input{
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-weight: lighter;
+    font-size: 15px;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 5px;
+}
+button{
+    width: 90%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-size: 15px;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 5px;
+    background-color: rgb(26, 117, 153);
+    color: gray;
 }

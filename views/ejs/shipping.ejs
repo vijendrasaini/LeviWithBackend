@@ -4,12 +4,15 @@
 <head>
     <title>Shopping Cart | Levi's® India</title>
     <link rel="stylesheet" href="/css/shipping.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footermain.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
 </head>
 
 <body>
-    <header></header>
+    
+    <header class="complete-header"></header>
     <div id="checkoutPage">
-        
         <!---------------------shipping address start--------------------->
         <div id="shippingAddress">
             <h4>SHIPPING ADDRESS</h4>
@@ -64,7 +67,18 @@
 </body>
 
 </html>
+<script type="module">
 
+    import navbar from "/js/header.js"
+    import footermain from "/js/footermain.js"
+    import profile from "/components/profile.js"
+    import cart from "/components/cart.js"
+
+    document.getElementsByTagName("footer")[0].innerHTML = footermain()
+    document.getElementsByTagName('header')[0].innerHTML = navbar()
+    document.getElementById('cart_container_anchor').addEventListener('click', cart)
+    profile()
+</script>
 <script>
     function proceedToCheckOut() {
         
