@@ -99,7 +99,8 @@ body{
     margin-top: 10px;
 }
 .nav-search-box input{
-    border: none;
+    border: 1px solid transparent;
+    outline: transparent;
     width: 300px;
 }
 .cart-icon-in-header{
