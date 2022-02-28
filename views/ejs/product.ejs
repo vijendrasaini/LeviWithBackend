@@ -118,7 +118,8 @@
     </div>
   </div>
   <footer></footer>
-  <input type="hidden" id="id_container" value=<%=`${man._id}`%>
+  <input type="hidden" id="id_container" value=<%=`${man._id}`%> >
+  <input type="hidden" id="complete_man_data" value=<%=`${JSON.stringify(man.color)}`%>>
 </body>
 
 </html>
@@ -136,13 +137,33 @@
 
   const add_cart_btn = document.getElementById('add_cart_btn')
 
-  let size = 'XXL'
+
+  const complete_man_data = document.getElementById('complete_man_data').value
+  const man_extracted = JSON.parse(complete_man_data)
+  console.log(man_extracted)
+  
+  let colors_row = document.getElementsByClassName('color_block')
+  let p = 0
+  for(let x in man_extracted)
+    {
+      colors_row[p].style.color = x
+      colors_row[p].textContent = x
+      colors_row[p++].style.backgroundColor = x
+    }
+
+  let user_color_choice = ""
+  for(let i=0;i<colors_row.length ;i++)
+    colors_row[i].addEventListener('click', color_picker_fun)
+  function color_picker_fun(event){
+    user_color_choice = event.target.textContent
+    alert(`color : ${user_color_choice} is selected.`)
+  }
+
+
+  let size = ""
   const sizes = document.getElementsByClassName('size_box') 
-  // console.log(sizes)
   for(let i=0;i<sizes.length ;i++)
     sizes[i].addEventListener('click', selectSize)
-
-  
   function selectSize(event){
     size = event.target.textContent
     alert(`Size : ${size} is selected.`)
@@ -151,6 +172,11 @@
   add_cart_btn.addEventListener('click', postDataToCart)
 
   async function postDataToCart() {
+    if(user_color_choice == "")
+        return alert('Please select color')
+    if(size == "")
+        return alert('Please select color')
+      
     const data = JSON.parse(localStorage.getItem('token'))
     const { email, token, id } = data
     if (!data) {
@@ -163,6 +189,7 @@
       image: document.getElementById('prod_highres_image').src,
       product_id: document.getElementById('id_container').value,
       title: document.getElementById('p_name').textContent,
+      color : user_color_choice,
       size : size,
       price: document.getElementById('pro_price_x').textContent,
       qty: document.getElementById('qty_opt').value
@@ -180,11 +207,4 @@
     const response2 = await response1.json()
     alert('Product is added in your cart.')
   }
-  let colors_row = document.getElementsByClassName('color_block')
-  for (let i = 0; i < colors_row.length; i++) {
-    colors_row[i].style.backgroundColor = colors_row[i].innerHTML
-    colors_row[i].innerHTML = ""
-
-  }
-
-</script>
+  </script>
