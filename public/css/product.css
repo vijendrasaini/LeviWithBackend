@@ -102,8 +102,8 @@
   justify-content: center;
   cursor: pointer;
 }
-.size_box:hover {
-  background-color: #333333;
+.size_box:hover,.size_box:focus {
+  background-color: #070505;
   color: #ffffff;
 }
 #del_div {
@@ -153,15 +153,17 @@
 #qty_sel {
   margin-left: 10px;
   width: 70px;
-  height: 40px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
+  height: 50px;
+  margin-top: 1px;
   cursor: pointer;
 }
 #qty_opt {
   width: 70px;
-  height: 40px;
-  border: 1px solid red;
+  height: 48px;
+  border: 1px solid rgb(19, 1, 1);
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
 }
 #add_cart_btn {
   height: 50px;
