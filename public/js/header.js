@@ -14,7 +14,7 @@ const navbar = () => {
 </div>
 <div class="navigation-bar">
 <div class="logo-image">
-    <a href="/home">
+    <a href="/">
         <img src="/img/logo.jpg"
         alt="">
     </a>
