@@ -33,13 +33,7 @@ app.use(express.urlencoded({ extended : true}))
 app.use(express.static('public'))
 app.set('view engine','ejs')   
 
-// app.get('/', async (req,res)=>{
-//     try {
-//         res.send("Hi name is vjendra.")
-//     } catch (error) {
-        
-//     }
-// })
+
 app.use('/', homeController)
 app.use('/login', registerAndLoginController)
 app.use('/payment', paymentController)
