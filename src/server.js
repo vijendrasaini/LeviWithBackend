@@ -1,6 +1,7 @@
 const express = require('express');
 const mongodbConnect = require('./configs/db');
 const path = require('path')
+const port = process.env.PORT || 7000
 
 
 const homeController = require('./controllers/home.controller')
@@ -57,7 +58,7 @@ app.use('/search',searchController)
 
 
 module.exports = ()=>{
-    app.listen( 7000, async () => {
+    app.listen( port, async () => {
         try {
             await mongodbConnect()
             console.log("Server is running on the port 7000")
