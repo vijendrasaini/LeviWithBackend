@@ -172,18 +172,18 @@
   add_cart_btn.addEventListener('click', postDataToCart)
 
   async function postDataToCart() {
-    if(user_color_choice == "")
-        return alert('Please select color')
-    if(size == "")
-        return alert('Please select size')
-      
     const data = JSON.parse(localStorage.getItem('token'))
     const { email, token, id } = data
     if (!data) {
       alert('please sign in')
       return
     }
-    console.log('user_Id _in', id)
+    if(user_color_choice == "")
+        return alert('Please select color')
+    if(size == "")
+        return alert('Please select size')
+      
+    // console.log('user_Id _in', id)
     const send_body = {
       user_id: id,
       image: document.getElementById('prod_highres_image').src,
