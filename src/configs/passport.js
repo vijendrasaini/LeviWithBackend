@@ -7,7 +7,7 @@ const User = require('../models/user.model')
 passport.use(new GoogleStrategy({
     clientID:     process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: "/oauth/signin/callback",
+    callbackURL: "https://leviwithbackend.herokuapp.com/oauth/signin/callback",
     passReqToCallback   : true
   },
   async function(request, accessToken, refreshToken, profile, done) {
