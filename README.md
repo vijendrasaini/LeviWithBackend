@@ -3,8 +3,7 @@ https://leviwithbackend.herokuapp.com
 
 # LeviWithBackend
 Complete website with Frontend and Backend
-# LeviWithBackend
-Complete website with Frontend and Backend
+
 # Levi's World!
 
 Thanks for visiting [levi's site](https://www.levi.in)!
